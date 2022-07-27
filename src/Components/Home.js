@@ -1,5 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from 'react'
+import "./Assets/css/Home.css"
+
 
 const Home = () => {
     return (
@@ -207,7 +209,7 @@ const Home = () => {
                                 <div className="bg_color" />
                                 {/* !Overlay Color */}
                                 {/* Overlay Image */}
-                                {/* <div class="bg_image" data-bg-img="img/hero/bg.jpg"></div> */}
+                                <div class="bg_image" data-bg-img="./Assets/img/hero/bg.jpg"></div>
                                 {/* !Overlay Image */}
                             </div>
                             {/* Overlay (of hero header) */}
@@ -241,7 +243,8 @@ const Home = () => {
                                 {/* About Item /1 */}
                                 <div className="neoh_fn_about_item">
                                     <div className="img_item">
-                                        <img src="./Assets//about/1.jpg" alt="" />
+                                        {/* <img src="./Assets//about/1.jpg" alt="" /> */}
+                                        <img src={require("./Assets/img/about/1.jpg")} alt="" />
                                     </div>
                                     <div className="content_item">
                                         <div className="neoh_fn_title" data-align="left">
@@ -346,6 +349,55 @@ const Home = () => {
                                 </div>
                                 {/* !Main Title */}
                                 {/* Services */}
+                                <div className="neoh_fn_services">
+                                    <ul>
+                                        <li>
+                                            <div className="item">
+                                                <div className="item_num">
+                                                    <span>01</span>
+                                                </div>
+                                                <div className="item_content">
+                                                    <h3 className="fn_title">Huge Collection</h3>
+                                                    <p className="fn_desc fn_animated_text">
+                                                        A collection of 5,000 unique NEOHs built to go beyond the
+                                                        digital space that will unlock numerous benefits for our
+                                                        community.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div className="item">
+                                                <div className="item_num">
+                                                    <span>02</span>
+                                                </div>
+                                                <div className="item_content">
+                                                    <h3 className="fn_title">High Quality</h3>
+                                                    <p className="fn_desc fn_animated_text">
+                                                        The NEOH collection includes dozens of rare heads,
+                                                        costumes, and colorways of the artist's palette. They are
+                                                        drawn with great care.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div className="item">
+                                                <div className="item_num">
+                                                    <span>03</span>
+                                                </div>
+                                                <div className="item_content">
+                                                    <h3 className="fn_title">Top Resource</h3>
+                                                    <p className="fn_desc fn_animated_text">
+                                                        Tasty design resources made with care for each pixel.
+                                                        Tokens, NFTs, metaverse and game resources. Access
+                                                        additional drops.{" "}
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
                                 <div className="neoh_fn_services">
                                     <ul>
                                         <li>
