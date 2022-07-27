@@ -1,3 +1,8 @@
+@font-face {
+  font-family: atmospheric;
+  src: url("../fonts/aAtmospheric.ttf");
+}
+
 .neoh_fn_services ul {
   display: flex;
   justify-content: center;
@@ -33,12 +38,51 @@
   color: #78f701;
 }
 
-@media(max-width : 800px){
-    .neoh_fn_investor li {
-        margin-right: 0rem;
-        margin-left: 0rem;
-        margin-bottom: 2rem;
-        min-width: 250px;
-        width: 100vw;
-      }
+@media (max-width: 800px) {
+  .neoh_fn_investor li {
+    margin-right: 0rem;
+    margin-left: 0rem;
+    margin-bottom: 2rem;
+    min-width: 250px;
+    width: 100vw;
+  }
+}
+
+.Heading {
+  font-size: calc(1.575rem + 2.8vw) !important;
+  letter-spacing: 0.25rem;
+  font-family: atmospheric;
+}
+.InvesterHeading {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20vh;
+}
+
+#investor {
+  padding-top: 1px !important;
+}
+
+.item_content {
+  background-color: rgba(165, 163, 163, 0.459);
+}
+
+/* #services {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+} */
+
+
+#services {
+  margin: 7rem;
+  background-color: rgba(64, 60, 60, 0.28);
+  border: 5px transparent;
+  border-radius: 41px;
+
 }

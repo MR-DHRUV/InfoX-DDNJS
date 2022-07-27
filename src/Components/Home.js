@@ -1,10 +1,23 @@
 import React, { useEffect } from 'react'
 import "./Assets/css/Home.css"
+import MatrixRain from './MatrixRain';
 
 const Home = () => {
-    
-   
-    
+
+    useEffect(() => {
+        setInterval(() => {
+            let lightup = Math.floor(Math.random() * (12) + 1);
+            document.getElementById(`sponsorImg-${lightup}`).style.filter = 'grayscale(0%)';
+            console.log('runin');
+            console.log(lightup);
+            setTimeout(() => {
+                document.getElementById(`sponsorImg-${lightup}`).style.filter = 'grayscale(100%)';
+            }, 600);
+        }, 700);
+    }, [])
+
+
+
     return (
         <>
             <div className="home-static">
@@ -138,6 +151,7 @@ const Home = () => {
                         {/* !About Section */}
                         {/* Services Section */}
                         <section id="services">
+                            <MatrixRain />
                             {/* Dividers */}
                             <img
                                 src="svg/divider.svg"
@@ -153,7 +167,7 @@ const Home = () => {
                             <div className="container">
                                 {/* Main Title */}
                                 <div className="neoh_fn_title">
-                                    <h3 className="fn_title theme">Why Choose Us?</h3>
+                                    <h1 className="fn_title theme Heading">Glimpses</h1>
                                     <div className="line">
                                         <span />
                                     </div>
@@ -213,7 +227,7 @@ const Home = () => {
                                                 <div className="item_content">
                                                     <h3 className="fn_title">Huge Collection</h3>
                                                     <p className="fn_desc fn_animated_text">
-                                                       With a footfall of 7000+ our last year's event was a huge sucess.
+                                                        With a footfall of 7000+ our last year's event was a huge sucess.
                                                     </p>
                                                 </div>
                                             </div>
@@ -264,17 +278,15 @@ const Home = () => {
                         </section>
                         {/* !Services Section */}
                         {/* Drops Section */}
-                        <section id="drop">
+                        {/* <section id="drop">
                             <div className="container">
-                                {/* Main Title */}
                                 <div className="neoh_fn_title">
                                     <h3 className="fn_title">Our Latest Drops</h3>
                                     <div className="line">
                                         <span />
                                     </div>
                                 </div>
-                                {/* !Main Title */}
-                                {/* Drops List */}
+                          
                                 <div className="neoh_fn_drops">
                                     <ul>
                                         <li>
@@ -288,7 +300,7 @@ const Home = () => {
                                                         <a href="/">Neoh /4588</a>
                                                     </h3>
                                                 </div>
-                                                {/* Modal Information */}
+                                           
                                                 <div className="hidden_info">
                                                     <div className="img_item">
                                                         <img src="./Assets//drops/1.jpg" />
@@ -322,7 +334,7 @@ const Home = () => {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                {/* !Modal Information */}
+                                  
                                             </div>
                                         </li>
                                         <li>
@@ -336,7 +348,7 @@ const Home = () => {
                                                         <a href="/">Neoh /4587</a>
                                                     </h3>
                                                 </div>
-                                                {/* Modal Information */}
+                                  
                                                 <div className="hidden_info">
                                                     <div className="img_item">
                                                         <img src="./Assets//drops/2.jpg" />
@@ -370,7 +382,7 @@ const Home = () => {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                {/* !Modal Information */}
+                      
                                             </div>
                                         </li>
                                         <li>
@@ -384,7 +396,7 @@ const Home = () => {
                                                         <a href="/">Neoh /4586</a>
                                                     </h3>
                                                 </div>
-                                                {/* Modal Information */}
+                    
                                                 <div className="hidden_info">
                                                     <div className="img_item">
                                                         <img src="./Assets//drops/3.jpg" />
@@ -418,7 +430,7 @@ const Home = () => {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                {/* !Modal Information */}
+                       
                                             </div>
                                         </li>
                                         <li>
@@ -432,7 +444,7 @@ const Home = () => {
                                                         <a href="/">Neoh /4585</a>
                                                     </h3>
                                                 </div>
-                                                {/* Modal Information */}
+                            
                                                 <div className="hidden_info">
                                                     <div className="img_item">
                                                         <img src="./Assets//drops/4.jpg" />
@@ -466,7 +478,7 @@ const Home = () => {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                {/* !Modal Information */}
+                                         
                                             </div>
                                         </li>
                                         <li>
@@ -480,7 +492,7 @@ const Home = () => {
                                                         <a href="/">Neoh /4584</a>
                                                     </h3>
                                                 </div>
-                                                {/* Modal Information */}
+                                       
                                                 <div className="hidden_info">
                                                     <div className="img_item">
                                                         <img src="./Assets//drops/5.jpg" />
@@ -514,7 +526,7 @@ const Home = () => {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                {/* !Modal Information */}
+                                     
                                             </div>
                                         </li>
                                         <li>
@@ -528,7 +540,7 @@ const Home = () => {
                                                         <a href="/">Neoh /4583</a>
                                                     </h3>
                                                 </div>
-                                                {/* Modal Information */}
+                      
                                                 <div className="hidden_info">
                                                     <div className="img_item">
                                                         <img src="./Assets//drops/6.jpg" />
@@ -563,30 +575,28 @@ const Home = () => {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                {/* !Modal Information */}
+                                         
                                             </div>
                                         </li>
                                     </ul>
-                                    {/* Clearfix */}
+                            
                                     <div className="clearfix" />
-                                    {/* Main Button */}
+                            
                                     <a href="collection.html" className="neoh_fn_button only_text full">
                                         <span className="text">Click here to See all ITEMS</span>
                                     </a>
-                                    {/* !Main Button */}
+                                 
                                 </div>
-                                {/* !Drops List */}
-                                {/* Main Title */}
+                   
                                 <div className="neoh_fn_title">
                                     <h3 className="fn_title">Neoh’s Roadmap</h3>
                                     <div className="line">
                                         <span />
                                     </div>
                                 </div>
-                                {/* !Main Title */}
-                                {/* Timeline */}
+                          
                                 <div className="neoh_fn_timeline">
-                                    {/* Timeline Content */}
+                                
                                     <div className="timeline_content">
                                         <ul className="timeline_list">
                                             <li className="timeline_item" data-index={1}>
@@ -892,17 +902,16 @@ const Home = () => {
                                             </li>
                                         </ul>
                                     </div>
-                                    {/* !Timeline Content */}
-                                    {/* Timeline Progress */}
+           
                                     <div className="timeline_progress">
-                                        {/* Nav */}
+                                      
                                         <a href="/" className="nav_prev">
                                             <img src="svg/right-arr.svg" alt="" className="fn__svg" />
                                         </a>
                                         <a href="/" className="nav_next">
                                             <img src="svg/right-arr.svg" alt="" className="fn__svg" />
                                         </a>
-                                        {/* !Nav */}
+           
                                         <div className="progress_line_wrapper">
                                             <div className="progress_line">
                                                 <ul>
@@ -953,13 +962,16 @@ const Home = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    {/* !Timeline Progress */}
+                    
                                 </div>
-                                {/* !Timeline */}
+
                             </div>
-                        </section>
+                        </section> */}
+
+
                         {/* !Drops Section */}
                         {/* Investor Section */}
+                        <h3 className="fn_title theme Heading InvesterHeading">Our Investors</h3>
                         <section id="investor">
                             {/* Dividers */}
                             <img
@@ -976,7 +988,6 @@ const Home = () => {
                             <div className="container">
                                 {/* Main Title */}
                                 <div className="neoh_fn_title">
-                                    <h3 className="fn_title theme">Our Investors</h3>
                                     <div className="line">
                                         <span />
                                     </div>
@@ -987,73 +998,73 @@ const Home = () => {
                                     <ul className='investerUl'>
                                         <li>
                                             <div className="item">
-                                                <img src={require("./Assets/img/investors/barista.png")} alt="" />
+                                                <img src={require("./Assets/img/investors/barista.png")} alt="" id='sponsorImg-1' />
                                                 <a href="/" className="full_link" />
                                             </div>
                                         </li>
                                         <li>
                                             <div className="item">
-                                                <img src={require("./Assets/img/investors/cb.png")} alt="" />
+                                                <img src={require("./Assets/img/investors/cb.png")} alt="" id='sponsorImg-2' />
                                                 <a href="/" className="full_link" />
                                             </div>
                                         </li>
                                         <li>
                                             <div className="item">
-                                                <img src={require("./Assets/img/investors/Paytm.png")} alt="" />
+                                                <img src={require("./Assets/img/investors/Paytm.png")} alt="" id='sponsorImg-3' />
                                                 <a href="/" className="full_link" />
                                             </div>
                                         </li>
                                         <li>
                                             <div className="item">
-                                                <img src={require("./Assets/img/investors/Podio.png")} alt="" />
+                                                <img src={require("./Assets/img/investors/Podio.png")} alt="" id='sponsorImg-4' />
                                                 <a href="/" className="full_link" />
                                             </div>
                                         </li>
                                         <li>
                                             <div className="item">
-                                                <img src={require("./Assets/img/investors/redbull.png")} alt="" />
+                                                <img src={require("./Assets/img/investors/redbull.png")} alt="" id='sponsorImg-5' />
                                                 <a href="/" className="full_link" />
                                             </div>
                                         </li>
                                         <li>
                                             <div className="item">
-                                                <img src={require("./Assets/img/investors/Redwolf.png")} alt="" />
+                                                <img src={require("./Assets/img/investors/Redwolf.png")} alt="" id='sponsorImg-6' />
                                                 <a href="/" className="full_link" />
                                             </div>
                                         </li>
                                         <li>
                                             <div className="item">
-                                                <img src={require("./Assets/img/investors/reliance.png")} alt="" />
+                                                <img src={require("./Assets/img/investors/reliance.png")} alt="" id='sponsorImg-7' />
                                                 <a href="/" className="full_link" />
                                             </div>
                                         </li>
                                         <li>
                                             <div className="item">
-                                                <img src={require("./Assets/img/investors/samsung.png")} alt="" />
+                                                <img src={require("./Assets/img/investors/samsung.png")} alt="" id='sponsorImg-8' />
                                                 <a href="/" className="full_link" />
                                             </div>
                                         </li>
                                         <li>
                                             <div className="item">
-                                                <img src={require("./Assets/img/investors/web.png")} alt="" />
+                                                <img src={require("./Assets/img/investors/web.png")} alt="" id='sponsorImg-9' />
                                                 <a href="/" className="full_link" />
                                             </div>
                                         </li>
                                         <li>
                                             <div className="item">
-                                                <img src={require("./Assets/img/investors/Hidden.png")} alt="" />
+                                                <img src={require("./Assets/img/investors/Hidden.png")} alt="" id='sponsorImg-10' />
                                                 <a href="/" className="full_link" />
                                             </div>
                                         </li>
                                         <li>
                                             <div className="item">
-                                                <img src={require("./Assets/img/investors/amigos.png")} alt="" />
+                                                <img src={require("./Assets/img/investors/amigos.png")} alt="" id='sponsorImg-11' />
                                                 <a href="/" className="full_link" />
                                             </div>
                                         </li>
                                         <li>
                                             <div className="item">
-                                                <img src={require("./Assets/img/investors/reappoint.png")} alt="" />
+                                                <img src={require("./Assets/img/investors/reappoint.png")} alt="" id='sponsorImg-12' />
                                                 <a href="/" className="full_link" />
                                             </div>
                                         </li>
