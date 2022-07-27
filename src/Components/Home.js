@@ -153,7 +153,7 @@ const Home = () => {
                             <div className="container">
                                 {/* Main Title */}
                                 <div className="neoh_fn_title">
-                                    <h3 className="fn_title">Why Choose Us?</h3>
+                                    <h3 className="fn_title theme">Why Choose Us?</h3>
                                     <div className="line">
                                         <span />
                                     </div>
@@ -976,7 +976,7 @@ const Home = () => {
                             <div className="container">
                                 {/* Main Title */}
                                 <div className="neoh_fn_title">
-                                    <h3 className="fn_title">Our Investors</h3>
+                                    <h3 className="fn_title theme">Our Investors</h3>
                                     <div className="line">
                                         <span />
                                     </div>
@@ -984,7 +984,7 @@ const Home = () => {
                                 {/* !Main Title */}
                                 {/* Investor List Shortcode */}
                                 <div className="neoh_fn_investor">
-                                    <ul>
+                                    <ul className='investerUl'>
                                         <li>
                                             <div className="item">
                                                 <img src={require("./Assets/img/investors/barista.png")} alt="" />

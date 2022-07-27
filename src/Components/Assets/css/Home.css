@@ -1,21 +1,34 @@
-.neoh_fn_services ul{
-    display: flex;
-    justify-content: center;
-    text-align: center;
+.neoh_fn_services ul {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
-.neoh_fn_services .sn_glimp_head{
-    font-size: 3.3rem;
+.neoh_fn_services .sn_glimp_head {
+  font-size: 3.3rem;
 }
-.sn_exp{
-    color: #252525;
+.sn_exp {
+  color: #252525;
 }
-.sn_exp:hover{
-    color: #78f701;
+.sn_exp:hover {
+  color: #78f701;
 }
-.item_content{
-    min-height: 290px !important;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.item_content {
+  min-height: 290px !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.investerUl {
+  display: flex;
+  justify-content: center;
+}
+
+.neoh_fn_investor li {
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+  margin-bottom: 4rem;
+}
+.theme {
+  color: #78f701;
 }
