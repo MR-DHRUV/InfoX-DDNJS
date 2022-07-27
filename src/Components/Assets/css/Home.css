@@ -1,0 +1,21 @@
+.neoh_fn_services ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.neoh_fn_services .sn_glimp_head{
+    font-size: 3.3rem;
+}
+.sn_exp{
+    color: #252525;
+}
+.sn_exp:hover{
+    color: #78f701;
+}
+.item_content{
+    min-height: 290px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
