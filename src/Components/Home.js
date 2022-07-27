@@ -989,7 +989,7 @@ const Home = () => {
                             <div className="container">
                                 {/* Main Title */}
                                 <div className="neoh_fn_title">
-                                    <h3 className="fn_title">Neoh’s Investors</h3>
+                                    <h3 className="fn_title">Our Investors</h3>
                                     <div className="line">
                                         <span />
                                     </div>
@@ -1000,61 +1000,73 @@ const Home = () => {
                                     <ul>
                                         <li>
                                             <div className="item">
-                                                <img src="./Assets//investors/1.png" alt="" />
+                                                <img src={require("./Assets/img/investors/barista.png")} alt="" />
                                                 <a href="/" className="full_link" />
                                             </div>
                                         </li>
                                         <li>
                                             <div className="item">
-                                                <img src="./Assets//investors/2.png" alt="" />
+                                                <img src={require("./Assets/img/investors/cb.png")} alt="" />
                                                 <a href="/" className="full_link" />
                                             </div>
                                         </li>
                                         <li>
                                             <div className="item">
-                                                <img src="./Assets//investors/3.png" alt="" />
+                                                <img src={require("./Assets/img/investors/Paytm.png")} alt="" />
                                                 <a href="/" className="full_link" />
                                             </div>
                                         </li>
                                         <li>
                                             <div className="item">
-                                                <img src="./Assets//investors/4.png" alt="" />
+                                                <img src={require("./Assets/img/investors/Podio.png")} alt="" />
                                                 <a href="/" className="full_link" />
                                             </div>
                                         </li>
                                         <li>
                                             <div className="item">
-                                                <img src="./Assets//investors/5.png" alt="" />
+                                                <img src={require("./Assets/img/investors/redbull.png")} alt="" />
                                                 <a href="/" className="full_link" />
                                             </div>
                                         </li>
                                         <li>
                                             <div className="item">
-                                                <img src="./Assets//investors/6.png" alt="" />
+                                                <img src={require("./Assets/img/investors/Redwolf.png")} alt="" />
                                                 <a href="/" className="full_link" />
                                             </div>
                                         </li>
                                         <li>
                                             <div className="item">
-                                                <img src="./Assets//investors/7.png" alt="" />
+                                                <img src={require("./Assets/img/investors/reliance.png")} alt="" />
                                                 <a href="/" className="full_link" />
                                             </div>
                                         </li>
                                         <li>
                                             <div className="item">
-                                                <img src="./Assets//investors/8.png" alt="" />
+                                                <img src={require("./Assets/img/investors/samsung.png")} alt="" />
                                                 <a href="/" className="full_link" />
                                             </div>
                                         </li>
                                         <li>
                                             <div className="item">
-                                                <img src="./Assets//investors/9.png" alt="" />
+                                                <img src={require("./Assets/img/investors/web.png")} alt="" />
                                                 <a href="/" className="full_link" />
                                             </div>
                                         </li>
                                         <li>
                                             <div className="item">
-                                                <img src="./Assets//investors/10.png" alt="" />
+                                                <img src={require("./Assets/img/investors/Hidden.png")} alt="" />
+                                                <a href="/" className="full_link" />
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div className="item">
+                                                <img src={require("./Assets/img/investors/amigos.png")} alt="" />
+                                                <a href="/" className="full_link" />
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div className="item">
+                                                <img src={require("./Assets/img/investors/reappoint.png")} alt="" />
                                                 <a href="/" className="full_link" />
                                             </div>
                                         </li>
