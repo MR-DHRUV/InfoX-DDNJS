@@ -683,6 +683,7 @@ const Home = () => {
                                                 <div className="hidden_info">
                                                     <div className="img_item">
                                                         <img src="./Assets//drops/6.jpg" />
+                                                        <img src={require("./Assets/img/drops/6.jpg")} alt="dr" />
                                                     </div>
                                                     <div className="content_item">
                                                         <div className="neoh_fn_title" data-align="left">
