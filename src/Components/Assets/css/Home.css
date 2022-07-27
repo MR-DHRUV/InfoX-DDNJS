@@ -32,3 +32,13 @@
 .theme {
   color: #78f701;
 }
+
+@media(max-width : 800px){
+    .neoh_fn_investor li {
+        margin-right: 0rem;
+        margin-left: 0rem;
+        margin-bottom: 2rem;
+        min-width: 250px;
+        width: 100vw;
+      }
+}
