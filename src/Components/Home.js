@@ -1,9 +1,10 @@
-/* eslint-disable jsx-a11y/anchor-has-content */
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./Assets/css/Home.css"
 
-
 const Home = () => {
+    
+   
+    
     return (
         <>
             <div className="home-static">
@@ -164,14 +165,12 @@ const Home = () => {
                                         <li>
                                             <div className="item">
                                                 <div className="item_num">
-                                                    <span>01</span>
+                                                    <span class="sn_exp" >02</span>
                                                 </div>
                                                 <div className="item_content">
-                                                    <h3 className="fn_title">Huge Collection</h3>
+                                                    <h3 className="fn_title sn_glimp_head">116</h3>
                                                     <p className="fn_desc fn_animated_text">
-                                                        A collection of 5,000 unique NEOHs built to go beyond the
-                                                        digital space that will unlock numerous benefits for our
-                                                        community.
+                                                        affilated colleges.
                                                     </p>
                                                 </div>
                                             </div>
@@ -179,14 +178,12 @@ const Home = () => {
                                         <li>
                                             <div className="item">
                                                 <div className="item_num">
-                                                    <span>02</span>
+                                                    <span class="sn_exp" >01</span>
                                                 </div>
                                                 <div className="item_content">
-                                                    <h3 className="fn_title">High Quality</h3>
+                                                    <h3 className="fn_title sn_glimp_head">6000+</h3>
                                                     <p className="fn_desc fn_animated_text">
-                                                        The NEOH collection includes dozens of rare heads,
-                                                        costumes, and colorways of the artist's palette. They are
-                                                        drawn with great care.
+                                                        students in the campus
                                                     </p>
                                                 </div>
                                             </div>
@@ -194,14 +191,12 @@ const Home = () => {
                                         <li>
                                             <div className="item">
                                                 <div className="item_num">
-                                                    <span>03</span>
+                                                    <span class="sn_exp" >03</span>
                                                 </div>
                                                 <div className="item_content">
-                                                    <h3 className="fn_title">Top Resource</h3>
+                                                    <h3 className="fn_title sn_glimp_head">25+</h3>
                                                     <p className="fn_desc fn_animated_text">
-                                                        Tasty design resources made with care for each pixel.
-                                                        Tokens, NFTs, metaverse and game resources. Access
-                                                        additional drops.{" "}
+                                                        events!!
                                                     </p>
                                                 </div>
                                             </div>
@@ -213,14 +208,12 @@ const Home = () => {
                                         <li>
                                             <div className="item">
                                                 <div className="item_num">
-                                                    <span>01</span>
+                                                    <span class="sn_exp" >01</span>
                                                 </div>
                                                 <div className="item_content">
                                                     <h3 className="fn_title">Huge Collection</h3>
                                                     <p className="fn_desc fn_animated_text">
-                                                        A collection of 5,000 unique NEOHs built to go beyond the
-                                                        digital space that will unlock numerous benefits for our
-                                                        community.
+                                                       With a footfall of 7000+ our last year's event was a huge sucess.
                                                     </p>
                                                 </div>
                                             </div>
@@ -228,14 +221,12 @@ const Home = () => {
                                         <li>
                                             <div className="item">
                                                 <div className="item_num">
-                                                    <span>02</span>
+                                                    <span class="sn_exp" >02</span>
                                                 </div>
                                                 <div className="item_content">
                                                     <h3 className="fn_title">High Quality</h3>
                                                     <p className="fn_desc fn_animated_text">
-                                                        The NEOH collection includes dozens of rare heads,
-                                                        costumes, and colorways of the artist's palette. They are
-                                                        drawn with great care.
+                                                        this year the crowd expectancy has increased to over <b>9000</b>.
                                                     </p>
                                                 </div>
                                             </div>
@@ -243,14 +234,12 @@ const Home = () => {
                                         <li>
                                             <div className="item">
                                                 <div className="item_num">
-                                                    <span>03</span>
+                                                    <span class="sn_exp" >03</span>
                                                 </div>
                                                 <div className="item_content">
                                                     <h3 className="fn_title">Top Resource</h3>
                                                     <p className="fn_desc fn_animated_text">
-                                                        Tasty design resources made with care for each pixel.
-                                                        Tokens, NFTs, metaverse and game resources. Access
-                                                        additional drops.{" "}
+                                                        A major breakthrough is the <b>30,000</b> students in affiliated colleges of GGSIPU{" "}
                                                     </p>
                                                 </div>
                                             </div>
@@ -258,14 +247,12 @@ const Home = () => {
                                         <li>
                                             <div className="item">
                                                 <div className="item_num">
-                                                    <span>04</span>
+                                                    <span class="sn_exp" >04</span>
                                                 </div>
                                                 <div className="item_content">
                                                     <h3 className="fn_title">Big Community</h3>
                                                     <p className="fn_desc fn_animated_text">
-                                                        Be part of a community of neoh owners and create user
-                                                        generated items. Rent, advertise, lounch stores, create
-                                                        items.
+                                                        We have <b>8000+</b> registrations expected on the website this year for <b>25+ events</b> lined up for all kinds of audience.
                                                     </p>
                                                 </div>
                                             </div>
