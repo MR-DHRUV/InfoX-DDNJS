@@ -51,9 +51,11 @@ const Home = () => {
                                             infoXpression
                                         </h2>
                                         <p className="fn_desc fn_animated_text">
-                                            The collection built by and runby ‘frenify’. Together we are
-                                            strong than ever.
+                                            SEPTEMBER X - Y 2022
+                                            TECHFEST USICT | GGSIPU
+                                            CELEBRATING THE SENSE OF BELONGING
                                         </p>
+                                     
                                     </div>
                                 </div>
                                 <a
@@ -288,7 +290,7 @@ const Home = () => {
                         </section>
                         {/* !Services Section */}
                         {/* Drops Section */}
-                        {/* <section id="drop">
+                        <section id="drop">
                             <div className="container">
                                 <div className="neoh_fn_title">
                                     <h3 className="fn_title">Our Latest Drops</h3>
@@ -599,44 +601,40 @@ const Home = () => {
                                 </div>
                    
                                 <div className="neoh_fn_title">
-                                    <h3 className="fn_title">Neoh’s Roadmap</h3>
+                                    <h3 className="fn_title theme Heading ">Schedule</h3>
                                     <div className="line">
                                         <span />
                                     </div>
                                 </div>
                           
-                                <div className="neoh_fn_timeline">
-                                
-                                    <div className="timeline_content">
+                                <div className="neoh_fn_timeline ">
+
+                                    <div className="timeline_content ">
+                                       
                                         <ul className="timeline_list">
                                             <li className="timeline_item" data-index={1}>
                                                 <div className="t_item">
                                                     <div className="t_item_img">
-                                                        <div className="neoh_fn_gallery_1_2">
-                                                            <div className="gallery_in">
-                                                                <div className="item row2">
-                                                                    <img src="./Assets//timeline/1/1.jpg" alt="" />
-                                                                </div>
+                                                        <div className="schedule_fn_gallery_1_2">
+                                                            <div className="schedule-gallery_in">
                                                                 <div className="item">
-                                                                    <img src="./Assets//timeline/1/2.jpg" alt="" />
+                                                                    <img src={require("./Assets/img/timeline/1/1.jpg")} alt="" />
                                                                 </div>
-                                                                <div className="item">
-                                                                    <img src="./Assets//timeline/1/3.jpg" alt="" />
-                                                                </div>
+                                                                
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="t_item_info">
-                                                        <p className="fn_date">
-                                                            <span>May 05, 2022</span>
+                                                        <p className="fn_date atmosphere">
+                                                            <span>Date &amp; Time</span>
                                                         </p>
-                                                        <h3 className="fn_title">
+                                                        <h3 className="fn_title atmosphere">
                                                             <a href="roadmap-single.html">
-                                                                New Character Set /12 is Coming Up
+                                                                Event Name
                                                             </a>
                                                         </h3>
-                                                        <p className="fn_desc">
-                                                            Morbi non dignissim erat, a blandit felis. Suspendisse
+                                                        <p className="fn_desc ">
+                                                        Morbi non dignissim erat, a blandit felis. Suspendisse
                                                             nec lorem vel orci varius congue ut vitae est. Nam quis
                                                             tempus nisl. Fusce posuere nibh a mi molestie, sit amet
                                                             ornare lectus interdum.
@@ -646,7 +644,7 @@ const Home = () => {
                                                                 href="roadmap-single.html"
                                                                 className="neoh_fn_button only_text"
                                                             >
-                                                                <span className="text">Read More</span>
+                                                                <span className="text ">Know More</span>
                                                             </a>
                                                         </p>
                                                     </div>
@@ -658,28 +656,28 @@ const Home = () => {
                                                         <div className="neoh_fn_gallery_1_2">
                                                             <div className="gallery_in">
                                                                 <div className="item row2">
-                                                                    <img src="./Assets//timeline/2/1.jpg" alt="" />
+                                                                    <img src={require("./Assets/img/timeline/2/1.jpg")} alt="" />
                                                                 </div>
                                                                 <div className="item">
-                                                                    <img src="./Assets//timeline/2/2.jpg" alt="" />
+                                                                    <img src={require("./Assets/img/timeline/2/2.jpg")}alt="" />
                                                                 </div>
                                                                 <div className="item">
-                                                                    <img src="./Assets//timeline/2/3.jpg" alt="" />
+                                                                    <img src={require("./Assets/img/timeline/2/3.jpg")}alt="" />
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="t_item_info">
-                                                        <p className="fn_date">
-                                                            <span>May 27, 2022</span>
+                                                        <p className="fn_date atmosphere">
+                                                            <span> Date &amp; Time </span>
                                                         </p>
-                                                        <h3 className="fn_title">
+                                                        <h3 className="fn_title atmosphere">
                                                             <a href="roadmap-single.html">
-                                                                Female Character Set /20 is Coming Up
+                                                                Event Name
                                                             </a>
                                                         </h3>
-                                                        <p className="fn_desc">
-                                                            Morbi non dignissim erat, a blandit felis. Suspendisse
+                                                        <p className="fn_desc ">
+                                                        Morbi non dignissim erat, a blandit felis. Suspendisse
                                                             nec lorem vel orci varius congue ut vitae est. Nam quis
                                                             tempus nisl. Fusce posuere nibh a mi molestie, sit amet
                                                             ornare lectus interdum.
@@ -689,7 +687,7 @@ const Home = () => {
                                                                 href="roadmap-single.html"
                                                                 className="neoh_fn_button only_text"
                                                             >
-                                                                <span className="text">Read More</span>
+                                                                <span className="text ">Know More</span>
                                                             </a>
                                                         </p>
                                                     </div>
@@ -976,12 +974,12 @@ const Home = () => {
                                 </div>
 
                             </div>
-                        </section> */}
+                        </section>
 
 
                         {/* !Drops Section */}
                         {/* Investor Section */}
-                        <h3 className="fn_title theme Heading InvesterHeading">Our Investors</h3>
+                        <h3 className="fn_title theme Heading InvesterHeading">Our Sponsers</h3>
                         <section id="investor">
                             {/* Dividers */}
                             <img
