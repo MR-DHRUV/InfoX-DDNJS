@@ -63,13 +63,16 @@ const Home = () => {
                                     <span className="text">Scroll Down</span>
                                     <span className="icon">
                                         {/* <img src="svg/right-arr.svg" alt="" className="fn__svg" /> */}
-                                        
-                                        <img src={require('./Assets/img/arrow.svg')} alt="" className="fn__svg" />
+
+                                        {/* <img src={require('./Assets/img/arrow.svg')} alt="" className="fn__svg" /> */}
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-chevron-down fn__svg" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                        </svg>
                                     </span>
                                 </a>
                             </div>
                         </div>
-                        
+
                         {/* !Hero Header */}
                         {/* About Section */}
                         {/* <section id="about">

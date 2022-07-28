@@ -216,38 +216,28 @@ const About = () => {
                                             <div className="t_item">
                                                 <div className="person_info">
                                                     <div className="img_holder">
-                                                        <img src="img/author/1.jpg" alt="" />
+                                                        <img src={require("./Assets/img/author/dhruvgupta.png")} alt="" />
                                                     </div>
                                                     <div className="title_holder">
-                                                        <h3 className="fn_title">Tom Mccarthy</h3>
-                                                        <p className="fn_desc">2D Artist</p>
+                                                        <h3 className="fn_title">Dhruv Gupta</h3>
+                                                        <p className="fn_desc">Web Lead</p>
                                                     </div>
                                                 </div>
                                                 <div className="person_social">
                                                     <ul>
                                                         <li>
-                                                            <a href="/">
-                                                                <i className="fn-icon-twitter" />
+                                                            <a href="https://www.linkedin.com/in/dhruv-gupta-55034a228/" target='_blank' rel='noreferrer'>
+                                                                <i className="fa-brands fa-linkedin" />
                                                             </a>
                                                         </li>
                                                         <li>
-                                                            <a href="/">
-                                                                <i className="fn-icon-facebook" />
+                                                            <a href="https://instagram.com/dhruv._0810" target='_blank' rel='noreferrer'>
+                                                                <i className="fa-brands fa-instagram" />
                                                             </a>
                                                         </li>
                                                         <li>
-                                                            <a href="/">
-                                                                <i className="fn-icon-instagram" />
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/">
-                                                                <i className="fn-icon-pinterest" />
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/">
-                                                                <i className="fn-icon-behance" />
+                                                            <a href="https://github.com/MR-DHRUV " target='_blank' rel='noreferrer'>
+                                                                <i className="fa-brands fa-github" />
                                                             </a>
                                                         </li>
                                                     </ul>
@@ -269,27 +259,27 @@ const About = () => {
                                                     <ul>
                                                         <li>
                                                             <a href="/">
-                                                                <i className="fn-icon-twitter" />
+                                                                <i className="fa-brands fa-twitter" />
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a href="/">
-                                                                <i className="fn-icon-facebook" />
+                                                                <i className="fa-brands fa-facebook" />
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a href="/">
-                                                                <i className="fn-icon-instagram" />
+                                                                <i className="fa-brands fa-instagram" />
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a href="/">
-                                                                <i className="fn-icon-pinterest" />
+                                                                <i className="fa-brands fa-pinterest" />
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a href="/">
-                                                                <i className="fn-icon-behance" />
+                                                                <i className="fa-brands fa-behance" />
                                                             </a>
                                                         </li>
                                                     </ul>
@@ -311,27 +301,27 @@ const About = () => {
                                                     <ul>
                                                         <li>
                                                             <a href="/">
-                                                                <i className="fn-icon-twitter" />
+                                                                <i className="fa-brands fa-twitter" />
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a href="/">
-                                                                <i className="fn-icon-facebook" />
+                                                                <i className="fa-brands fa-facebook" />
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a href="/">
-                                                                <i className="fn-icon-instagram" />
+                                                                <i className="fa-brands fa-instagram" />
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a href="/">
-                                                                <i className="fn-icon-pinterest" />
+                                                                <i className="fa-brands fa-pinterest" />
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a href="/">
-                                                                <i className="fn-icon-behance" />
+                                                                <i className="fa-brands fa-behance" />
                                                             </a>
                                                         </li>
                                                     </ul>
@@ -353,27 +343,27 @@ const About = () => {
                                                     <ul>
                                                         <li>
                                                             <a href="/">
-                                                                <i className="fn-icon-twitter" />
+                                                                <i className="fa-brands fa-twitter" />
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a href="/">
-                                                                <i className="fn-icon-facebook" />
+                                                                <i className="fa-brands fa-facebook" />
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a href="/">
-                                                                <i className="fn-icon-instagram" />
+                                                                <i className="fa-brands fa-instagram" />
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a href="/">
-                                                                <i className="fn-icon-pinterest" />
+                                                                <i className="fa-brands fa-pinterest" />
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a href="/">
-                                                                <i className="fn-icon-behance" />
+                                                                <i className="fa-brands fa-behance" />
                                                             </a>
                                                         </li>
                                                     </ul>
@@ -395,27 +385,27 @@ const About = () => {
                                                     <ul>
                                                         <li>
                                                             <a href="/">
-                                                                <i className="fn-icon-twitter" />
+                                                                <i className="fa-brands fa-twitter" />
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a href="/">
-                                                                <i className="fn-icon-facebook" />
+                                                                <i className="fa-brands fa-facebook" />
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a href="/">
-                                                                <i className="fn-icon-instagram" />
+                                                                <i className="fa-brands fa-instagram" />
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a href="/">
-                                                                <i className="fn-icon-pinterest" />
+                                                                <i className="fa-brands fa-pinterest" />
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a href="/">
-                                                                <i className="fn-icon-behance" />
+                                                                <i className="fa-brands fa-behance" />
                                                             </a>
                                                         </li>
                                                     </ul>
@@ -437,27 +427,27 @@ const About = () => {
                                                     <ul>
                                                         <li>
                                                             <a href="/">
-                                                                <i className="fn-icon-twitter" />
+                                                                <i className="fa-brands fa-twitter" />
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a href="/">
-                                                                <i className="fn-icon-facebook" />
+                                                                <i className="fa-brands fa-facebook" />
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a href="/">
-                                                                <i className="fn-icon-instagram" />
+                                                                <i className="fa-brands fa-instagram" />
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a href="/">
-                                                                <i className="fn-icon-pinterest" />
+                                                                <i className="fa-brands fa-pinterest" />
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a href="/">
-                                                                <i className="fn-icon-behance" />
+                                                                <i className="fa-brands fa-behance" />
                                                             </a>
                                                         </li>
                                                     </ul>
@@ -513,27 +503,27 @@ const About = () => {
                                         <ul>
                                             <li>
                                                 <a href="/">
-                                                    <i className="fn-icon-twitter" />
+                                                    <i className="fa-brands fa-twitter" />
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="/">
-                                                    <i className="fn-icon-facebook" />
+                                                    <i className="fa-brands fa-facebook" />
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="/">
-                                                    <i className="fn-icon-instagram" />
+                                                    <i className="fa-brands fa-instagram" />
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="/">
-                                                    <i className="fn-icon-pinterest" />
+                                                    <i className="fa-brands fa-pinterest" />
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="/">
-                                                    <i className="fn-icon-behance" />
+                                                    <i className="fa-brands fa-behance" />
                                                 </a>
                                             </li>
                                         </ul>
