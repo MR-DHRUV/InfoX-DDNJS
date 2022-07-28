@@ -1,10 +1,15 @@
 canvas {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    z-index: -999;
-    width: 100vw !important;
-    height: 120vh!important;
-    margin: -7rem;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -999;
+  width: 100vw !important;
+  height: 150vh !important;
+  margin: -7rem;
+}
 
+@media (max-width: 800px) {
+  canvas {
+    margin: 0rem !important;
   }
+}

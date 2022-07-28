@@ -46,6 +46,9 @@
     min-width: 250px;
     width: 100vw;
   }
+  #services {
+    margin: 0.5rem !important;
+  }
 }
 
 .Heading {
@@ -78,11 +81,22 @@
   border: 1px solid rgba(255, 255, 255, 0.18);
 } */
 
-
 #services {
   margin: 7rem;
   background-color: rgba(64, 60, 60, 0.28);
   border: 5px transparent;
   border-radius: 41px;
+}
 
+.atmosphere {
+  font-family: atmospheric !important;
+}
+.landingHead{
+  max-width: none !important;
+  font-size: 5rem !important;
+  letter-spacing: 1rem !important;
+
+}
+.hero_content{
+  justify-content: flex-end !important;
 }

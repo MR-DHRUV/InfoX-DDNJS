@@ -40,8 +40,8 @@ const Home = () => {
                             <div className="hero_content">
                                 <div className="container">
                                     <div className="content">
-                                        <h2 className="fn_title" title="Neoh">
-                                            INFOX
+                                        <h2 className="fn_title atmosphere landingHead" title="Neoh">
+                                            infoXpression
                                         </h2>
                                         <p className="fn_desc fn_animated_text">
                                             The collection built by and runby ‘frenify’. Together we are
@@ -62,12 +62,11 @@ const Home = () => {
                         </div>
                         {/* !Hero Header */}
                         {/* About Section */}
-                        <section id="about">
+                        {/* <section id="about">
                             <div className="container">
-                                {/* About Item /1 */}
                                 <div className="neoh_fn_about_item">
                                     <div className="img_item">
-                                        {/* <img src="./Assets//about/1.jpg" alt="" /> */}
+                                        
                                         <img src={require("./Assets/img/about/1.jpg")} alt="" />
                                     </div>
                                     <div className="content_item">
@@ -112,8 +111,6 @@ const Home = () => {
                                         </div>
                                     </div>
                                 </div>
-                                {/* !About Item /1 */}
-                                {/* About Item /2 */}
                                 <div className="neoh_fn_about_item reverse">
                                     <div className="img_item">
                                         <img src="./Assets//about/2.jpg" alt="" />
@@ -145,9 +142,9 @@ const Home = () => {
                                         </div>
                                     </div>
                                 </div>
-                                {/* !About Item /2 */}
+                                
                             </div>
-                        </section>
+                        </section> */}
                         {/* !About Section */}
                         {/* Services Section */}
                         <section id="services">
