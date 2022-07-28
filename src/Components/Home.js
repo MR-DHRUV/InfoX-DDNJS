@@ -33,7 +33,14 @@ const Home = () => {
                                 <div className="bg_color" />
                                 {/* !Overlay Color */}
                                 {/* Overlay Image */}
-                                <div class="bg_image" data-bg-img="./Assets/img/hero/bg.jpg"></div>
+                                <div class="bg_image">
+                                    <video className='video' autoPlay='autoPlay' muted loop>
+                                        <source src={require('./Assets/video/Produce.mp4')} type="video/mp4" />
+                                        Your browser does not support the video tag.
+                                        <source src={require('./Assets/video/Produce.mp4')} type="video/ogg" />Your browser does not support the video tag.
+                                    </video>
+
+                                </div>
                                 {/* !Overlay Image */}
                             </div>
                             {/* Overlay (of hero header) */}
@@ -55,11 +62,14 @@ const Home = () => {
                                 >
                                     <span className="text">Scroll Down</span>
                                     <span className="icon">
-                                        <img src="svg/right-arr.svg" alt="" className="fn__svg" />
+                                        {/* <img src="svg/right-arr.svg" alt="" className="fn__svg" /> */}
+                                        
+                                        <img src={require('./Assets/img/arrow.svg')} alt="" className="fn__svg" />
                                     </span>
                                 </a>
                             </div>
                         </div>
+                        
                         {/* !Hero Header */}
                         {/* About Section */}
                         {/* <section id="about">
