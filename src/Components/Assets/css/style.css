@@ -369,11 +369,22 @@ a.full_link {
 /*	xxx video
 /*------------------------------------------------------------------*/
 
-video {
+.video {
     margin-left: 50vw;
     transform: translate(-50%);
     
 }
+
+@media (min-width : 1900px) {
+    .video{
+        width: 100vw !important;
+        margin-left: 0vw !important;
+        transform: translate(0%) !important;
+    }
+}
+
+
+
 
 
 
