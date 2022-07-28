@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Nav = () => {
     return (
@@ -69,34 +70,20 @@ const Nav = () => {
                 <div className="nav_content">
                     <div className="nav_menu">
                         <ul>
-                            <li className="menu-item menu-item-has-children">
-                                <a href="index.html">Home</a>
-                                <ul className="sub-menu">
-                                    <li>
-                                        <a href="index.html">Home Static</a>
-                                    </li>
-                                    <li>
-                                        <a href="index-kenburns.html">Full Kenburns</a>
-                                    </li>
-                                    <li>
-                                        <a href="index-half-kenburns.html">Half Kenburns</a>
-                                    </li>
-                                    <li>
-                                        <a href="index-half-slider.html">Half Slider</a>
-                                    </li>
-                                </ul>
+                            <li className="menu-item">
+                                <Link to="/">Home</Link>
                             </li>
                             <li className="menu-item">
-                                <a href="about.html">About</a>
+                                <Link to="/about">About</Link>
                             </li>
-                            <li className="menu-item">
+                            {/* <li className="menu-item">
                                 <a href="collection.html">Collection</a>
                             </li>
                             <li className="menu-item">
                                 <a href="blog.html">Blog</a>
-                            </li>
+                            </li> */}
                             <li className="menu-item">
-                                <a href="contact.html">Contact</a>
+                                <Link to="/contact">Contact</Link>
                             </li>
                         </ul>
                     </div>
