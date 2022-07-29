@@ -9,7 +9,7 @@ const Contact = () => {
         <div className="neoh_fn_content">
           {/* Page Title */}
           <div className="neoh_fn_pagetitle">
-            <div className="bg_overlay">
+            <div className="Mybg_overlay">
               <div className="bg_color" />
               <div id="bg_wali_image" className="bg_image" data-bg-img="img/hero/bg.jpg" />
             </div>
@@ -22,6 +22,7 @@ const Contact = () => {
                 >
                   Contact Us
                 </h3>
+                <hr />
                 <p className="fn_desc">
                   {/* <a href="index.html">Home</a>
             <span className="separator">/</span>

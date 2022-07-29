@@ -98,9 +98,6 @@
   letter-spacing: 1rem !important;
 
 }
-.hero_content{
-  justify-content: flex-end !important;
-}
 
 .bg_image{
   z-index: 2 !important;
