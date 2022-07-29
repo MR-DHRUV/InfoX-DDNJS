@@ -5,8 +5,11 @@
 .footer-20192 {
     position: relative;
     color: #fff;
-    padding: 7rem 0;
-    background-color:#111;
+    padding: 5rem 0;
+    background-color: #111;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 
 .footer-20192 .container {
@@ -14,7 +17,9 @@
 }
 
 .footer-20192 .customer {
-    font-size: 30px;
+    font: inherit;
+    color: var(--mc);
+    font-size: inherit;
     margin-bottom: 10px;
     margin-top: 0;
     line-height: 1.5;
@@ -27,16 +32,19 @@
     line-height: 1.5;
     display: block;
 }
+
 .footer-20192 .links .customerList .customerListA {
     text-decoration: none;
-    color: #666873;
+    color: #fff;
 }
 
-.footer-20192 .links .customerList .customerListA:hover{
+.footer-20192 .links .customerList .customerListA:hover {
     color: #78F701;
 }
 
-.footer-20192 .company{
+.footer-20192 .company {
+    font: inherit;
+    color: var(--mc);
     text-align: center;
 }
 
@@ -50,11 +58,18 @@
 .footer-20192 .links .companyFoot .footAcompany {
     text-align: center;
     text-decoration: none;
-    color: #666873;
+    color: #fff;
 }
 
 .footer-20192 .links .companyFoot .footAcompany:hover {
     color: #78F701;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
 
 .footer-20192 .social .socialList {
@@ -62,7 +77,9 @@
     position: relative;
 }
 
-.footer-20192 .furtherInfo{
+.footer-20192 .furtherInfo {
+    font: inherit;
+    color: var(--mc);
     text-align: center;
 }
 
@@ -72,16 +89,19 @@
     line-height: 1.5;
     display: block;
 }
+
 .footer-20192 .links .furtherInformation .furtherInformationA {
     text-decoration: none;
-    color: #666873;
+    color: #fff;
 }
 
-.footer-20192 .links .furtherInformation .furtherInformationA:hover{
+.footer-20192 .links .furtherInformation .furtherInformationA:hover {
     color: #78F701;
 }
 
-.footer-20192 .followUs{
+.footer-20192 .followUs {
+    font: inherit;
+    color: var(--mc);
     text-align: center;
 }
 
@@ -97,7 +117,8 @@
     /* background-color: #8186d5; */
     color: #fff;
 }
-.footer-20192 .social .socialList .listSocialA:hover{
+
+.footer-20192 .social .socialList .listSocialA:hover {
     color: #78F701
 }
 
@@ -110,10 +131,18 @@
     transform: translate(-50%, -50%);
 }
 
+.footer-20192 .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+}
+
 .footer-20192 .footer-logo {
     text-decoration: none;
-    color: #fff;
-    font-size: 2.4vh;
+    color: var(--mc);
+    font-size: 1.8vh;
     text-transform: uppercase;
     letter-spacing: .1rem;
     padding: 0;

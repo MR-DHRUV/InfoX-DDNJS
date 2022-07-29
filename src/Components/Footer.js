@@ -6,7 +6,7 @@ import "./Assets/css/footer.css"
 const Footer = () => {
     return(
         <>
-        <footer class="footer-20192">
+        <footer class="footer-20192 theme atmosphere">
         <div class="site-section">
             <div class="container">
                 <div class="row">

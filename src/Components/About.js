@@ -16,7 +16,7 @@ const About = () => {
                         <div className="pt_content">
                             <div className="container">
                                 <h3
-                                    className="fn_title fn_animated_text"
+                                    className="fn_title fn_animated_text theme atmosphere"
                                     data-wait={1000}
                                     data-speed={8}
                                 >
@@ -160,9 +160,9 @@ const About = () => {
                         </section>
                         {/* !Information Section */}
                         {/* Video Section */}
-                        <section id="video">
+                        {/* <section id="video">
                             {/* Dividers */}
-                            <img
+                            {/* <img
                                 src="svg/divider.svg"
                                 alt=""
                                 className="fn__svg fn__divider top_divider"
@@ -170,11 +170,11 @@ const About = () => {
                             <img
                                 src="svg/divider.svg"
                                 alt=""
-                                className="fn__svg fn__divider bottom_divider"
-                            />
+                                className="fn__svg fn__divider bottom_divider" 
+                            /> */}
                             {/* !Dividers */}
                             {/* Video Shortcode */}
-                            <div className="neoh_fn_video">
+                            {/* <div className="neoh_fn_video">
                                 <div className="bg_overlay">
                                     <div className="bg_image" data-bg-img="img/hero/bg.jpg" />
                                     <div className="bg_color" />
@@ -187,9 +187,9 @@ const About = () => {
                                         <img src="svg/play.svg" alt="" className="fn__svg" />
                                     </a>
                                 </div>
-                            </div>
+                            </div> */}
                             {/* !Video Shortcode */}
-                        </section>
+                        {/* </section> */}
                         {/* !Video Section */}
                         {/* Team Section */}
                         <section id="team">
@@ -465,10 +465,10 @@ const About = () => {
                 </div>
                 {/* Content */}
                 {/* Footer */}
-                <footer id="footer">
-                    <div className="neoh_fn_footer">
+                {/* <footer id="footer">
+                    <div className="neoh_fn_footer"> */}
                         {/* Footer Top */}
-                        <div className="footer_top">
+                        {/* <div className="footer_top">
                             <div className="container">
                                 <div className="ft_in">
                                     <div className="desc">
@@ -530,10 +530,10 @@ const About = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         {/* !Footer Top */}
                         {/* Footer Bottom */}
-                        <div className="footer_bottom">
+                        {/* <div className="footer_bottom">
                             <div className="container">
                                 <div className="fb_in">
                                     <div className="fb_left">
@@ -562,10 +562,10 @@ const About = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         {/* !Footer Bottom */}
-                    </div>
-                </footer>
+                    {/* </div>
+                </footer> */}
                 {/* !Footer */}
                 {/* Totop */}
                 <a href="/" className="neoh_fn_totop">
