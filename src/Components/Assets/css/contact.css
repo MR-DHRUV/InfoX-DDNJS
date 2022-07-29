@@ -1,55 +1,69 @@
-#bg_wali_image{
-    height:200px;
+#bg_wali_image {
+    height: 200px;
 }
-.bg_overlay{
-    height:200px;
+
+.bg_overlay {
+    height: 200px;
 }
-.neoh_fn_pagetitle{
+
+.neoh_fn_pagetitle {
     padding: 120px 100px 20px 50px;
 }
-.neoh_fn_contact_page{
-    padding:50px;
+
+.neoh_fn_contact_page {
+    background-color: var(--bs-gray-00);
+    padding: 50px;
 }
-#name:active{
-    border-color: #78f701;
-}
-#name:focus{
-    border-color: #78f701;
-}
-#name:focus-visible{
+
+#name:active {
     border-color: #78f701;
 }
 
-#email:active{
-    border-color: #78f701;
-}
-#email:focus{
-    border-color: #78f701;
-}
-#email:focus-visible{
+#name:focus {
     border-color: #78f701;
 }
 
-#subject:active{
-    border-color: #78f701;
-}
-#subject:focus{
-    border-color: #78f701;
-}
-#subject:focus-visible{
+#name:focus-visible {
     border-color: #78f701;
 }
 
-#message:active{
+#email:active {
     border-color: #78f701;
 }
-#message:focus{
+
+#email:focus {
     border-color: #78f701;
 }
-#message:focus-visible{
+
+#email:focus-visible {
     border-color: #78f701;
 }
-.pt_content{
+
+#subject:active {
+    border-color: #78f701;
+}
+
+#subject:focus {
+    border-color: #78f701;
+}
+
+#subject:focus-visible {
+    border-color: #78f701;
+}
+
+#message:active {
+    border-color: #78f701;
+}
+
+#message:focus {
+    border-color: #78f701;
+}
+
+#message:focus-visible {
+    border-color: #78f701;
+}
+
+.pt_content {
     margin-top: 2vh;
     margin-bottom: 2vh;
 }

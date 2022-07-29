@@ -128,27 +128,27 @@ const Nav = () => {
                             <ul>
                                 <li>
                                     <a href="/">
-                                        <i className="fn-icon-twitter" />
+                                        <i className="fa-brands fa-twitter" />
                                     </a>
                                 </li>
                                 <li>
                                     <a href="/">
-                                        <i className="fn-icon-facebook" />
+                                        <i className="fa-brands fa-facebook" />
                                     </a>
                                 </li>
                                 <li>
                                     <a href="/">
-                                        <i className="fn-icon-instagram" />
+                                        <i className="fa-brands fa-instagram" />
                                     </a>
                                 </li>
                                 <li>
                                     <a href="/">
-                                        <i className="fn-icon-pinterest" />
+                                        <i className="fa-brands fa-pinterest" />
                                     </a>
                                 </li>
                                 <li>
                                     <a href="/">
-                                        <i className="fn-icon-behance" />
+                                        <i className="fa-brands fa-behance" />
                                     </a>
                                 </li>
                             </ul>

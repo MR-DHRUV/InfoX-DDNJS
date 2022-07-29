@@ -6,6 +6,7 @@ import Home from './Components/Home';
 import About from './Components/About';
 import Contact from './Components/Contact';
 import Nav from './Components/Nav';
+import Footer from './Components/Footer';
 import {
   BrowserRouter as Router,
   Switch,
@@ -26,6 +27,7 @@ function App() {
           {/*  */}
 
         </Switch>
+        <Footer />
       </Router>
     </div>
   );
