@@ -1,126 +1,128 @@
 import React from 'react'
 import "./Assets/css/contact.css"
-const Contact = () => { 
+import NeonRain from './NeonRain'
+const Contact = () => {
   return (
     <>
-        <div className="neoh_fn_main" data-footer-sticky="">
-  {/* Content */}
-  <div className="neoh_fn_content">
-    {/* Page Title */}
-    <div className="neoh_fn_pagetitle">
-      <div className="bg_overlay">
-        <div className="bg_color" />
-        <div id="bg_wali_image" className="bg_image" data-bg-img="img/hero/bg.jpg" />
-      </div>
-      <div className="pt_content">
-        <div className="container">
-          <h3
-            className="fn_title fn_animated_text theme atmosphere"
-            data-wait={1000}
-            data-speed={8}
-          >
-            Contact Us
-          </h3>
-          <p className="fn_desc">
-            {/* <a href="index.html">Home</a>
+      <div className="neoh_fn_main" data-footer-sticky="">
+        {/* Content */}
+        <div className="neoh_fn_content">
+          {/* Page Title */}
+          <div className="neoh_fn_pagetitle">
+            <div className="bg_overlay">
+              <div className="bg_color" />
+              <div id="bg_wali_image" className="bg_image" data-bg-img="img/hero/bg.jpg" />
+            </div>
+            <div className="pt_content">
+              <div className="container">
+                <h3
+                  className="fn_title fn_animated_text theme atmosphere"
+                  data-wait={1000}
+                  data-speed={8}
+                >
+                  Contact Us
+                </h3>
+                <p className="fn_desc">
+                  {/* <a href="index.html">Home</a>
             <span className="separator">/</span>
             <span className="current">Contact</span> */}
-          </p>
-        </div>
-      </div>
-    </div>
-    {/* !Page Title */}
-    {/* Contact Page */}
-    <div className="neoh_fn_contact_page">
-      <div className="container">
-        <div className="mw_500">
-          <form
-            action="/"
-            method="post"
-            className="contact_form"
-            id="contact_form"
-            autoComplete="off"
-          >
-            <div className="input_list">
-              <ul>
-                <li>
-                  <label htmlFor="name">Name</label>
-                  <input id="name" type="text" placeholder="Your Name" />
-                </li>
-                <li>
-                  <label htmlFor="email">Email</label>
-                  <input
-                    id="email"
-                    type="text"
-                    placeholder="youremail@mail.com"
-                  />
-                </li>
-                <li>
-                  <label htmlFor="subject">Subject</label>
-                  <input id="subject" type="text" placeholder="How can we help?"/>
-                </li>
-                <li>
-                  <label htmlFor="message">Message</label>
-                  <textarea id="message" defaultValue={""} />
-                </li>
-                <li>
-                  <a
-                    id="send_message"
-                    href="/"
-                    className="neoh_fn_button only_text"
-                  >
-                    <span className="text">Send Message</span>
-                  </a>
-                </li>
-              </ul>
+                </p>
+              </div>
             </div>
-            <div
-              className="returnmessage"
-              data-success="Your message has been received, We will contact you soon."
-            />
-            <div className="empty_notice">
-              <span>Please Fill Required Fields</span>
-            </div>
-          </form>
-          <div className="desc_holder">
-            
           </div>
-          <div className="info_list">
-            <ul>
-              <li>
-                <p className="label">Address</p>
-                <h3 className="value">GGSIPU, Golf Course Rd, Sector 16 C, Dwarka, Delhi, 110078</h3>
-              </li>
-              <li>
-                <p className="label">Phone</p>
-                <h3 className="value">
-                  <a href="tel:+7068980751">011-253021671</a>
-                </h3>
-              </li>
-              <li>
-                <a
-                  href="mailto:osnishant22@gmail.com"
-                  className="email"
+          {/* !Page Title */}
+          {/* Contact Page */}
+          <div className="neoh_fn_contact_page">
+            <div className="container">
+              <div className="mw_500">
+                <form
+                  action="/"
+                  method="post"
+                  className="contact_form"
+                  id="contact_form"
+                  autoComplete="off"
                 >
-                  <span
-                    className="__cf_email__"
-                    data-cfemail="f09588919d809c95b0949f9d91999e"
-                  >
-                    osnishant22@gmail.com
-                  </span>
-                  .com
-                </a>
-              </li>
-            </ul>
+                  <div className="input_list">
+                    <NeonRain />
+                    <ul>
+                      <li>
+                        <label htmlFor="name">Name</label>
+                        <input id="name" type="text" placeholder="Your Name" />
+                      </li>
+                      <li>
+                        <label htmlFor="email">Email</label>
+                        <input
+                          id="email"
+                          type="text"
+                          placeholder="youremail@mail.com"
+                        />
+                      </li>
+                      <li>
+                        <label htmlFor="subject">Subject</label>
+                        <input id="subject" type="text" placeholder="How can we help?" />
+                      </li>
+                      <li>
+                        <label htmlFor="message">Message</label>
+                        <textarea id="message" defaultValue={""} />
+                      </li>
+                      <li>
+                        <a
+                          id="send_message"
+                          href="/"
+                          className="neoh_fn_button only_text"
+                        >
+                          <span className="text">Send Message</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div
+                    className="returnmessage"
+                    data-success="Your message has been received, We will contact you soon."
+                  />
+                  <div className="empty_notice">
+                    <span>Please Fill Required Fields</span>
+                  </div>
+                </form>
+                <div className="desc_holder">
+
+                </div>
+                <div className="info_list">
+                  <ul>
+                    <li>
+                      <p className="label">Address</p>
+                      <h3 className="value">GGSIPU, Golf Course Rd, Sector 16 C, Dwarka, Delhi, 110078</h3>
+                    </li>
+                    <li>
+                      <p className="label">Phone</p>
+                      <h3 className="value">
+                        <a href="tel:+7068980751">011-253021671</a>
+                      </h3>
+                    </li>
+                    <li>
+                      <a
+                        href="mailto:osnishant22@gmail.com"
+                        className="email"
+                      >
+                        <span
+                          className="__cf_email__"
+                          data-cfemail="f09588919d809c95b0949f9d91999e"
+                        >
+                          osnishant22@gmail.com
+                        </span>
+                        .com
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
+          {/* !Contact Page */}
         </div>
-      </div>
-    </div>
-    {/* !Contact Page */}
-  </div>
-  {/* Content */}
-  {/* Footer */}
-  {/* <footer id="footer">
+        {/* Content */}
+        {/* Footer */}
+        {/* <footer id="footer">
     <div className="neoh_fn_footer">
       <div className="footer_top">
         <div className="container">
@@ -217,17 +219,17 @@ const Contact = () => {
       </div>
     </div>
   </footer> */}
-  {/* Totop */}
-  <a href="/" className="neoh_fn_totop">
-    <span className="arrow">
-      <img src="svg/right-arr.svg" alt="" className="fn__svg" />
-    </span>
-    <span className="circle">
-      <img src="svg/circle.svg" alt="" className="fn__svg" />
-    </span>
-  </a>
-  {/* !Totop */}
-</div>
+        {/* Totop */}
+        <a href="/" className="neoh_fn_totop">
+          <span className="arrow">
+            <img src="svg/right-arr.svg" alt="" className="fn__svg" />
+          </span>
+          <span className="circle">
+            <img src="svg/circle.svg" alt="" className="fn__svg" />
+          </span>
+        </a>
+        {/* !Totop */}
+      </div>
 
     </>
   )

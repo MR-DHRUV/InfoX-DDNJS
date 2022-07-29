@@ -8,6 +8,16 @@ canvas {
   margin: -7rem;
 }
 
+#canvas-club{
+  height: 135vh !important;
+  width: 100vw !important;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  min-height: 100vh !important;
+}
+
+
 @media (max-width: 800px) {
   canvas {
     margin: 0rem !important;
