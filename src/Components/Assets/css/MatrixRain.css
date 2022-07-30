@@ -3,7 +3,7 @@ canvas {
   top: 0px;
   left: 0px;
   z-index: -999;
-  width: 100vw !important;
+  width: 150vw !important;
   height: 150vh !important;
   margin: -7rem;
 }
