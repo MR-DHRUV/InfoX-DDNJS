@@ -47,7 +47,7 @@ const Home = () => {
                             <div className="hero_content justify-content-end">
                                 <div className="container">
                                     <div className="content">
-                                        <h2 className="fn_title atmosphere landingHead" title="Neoh">
+                                        <h2 className="fn_title heading landingHead" title="Neoh">
                                             infoXpression
                                         </h2>
                                         <p className="fn_desc fn_animated_text">

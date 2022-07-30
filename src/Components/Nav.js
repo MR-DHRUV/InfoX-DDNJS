@@ -96,7 +96,7 @@ const Nav = () => {
                             <span className="icon">
                                 <img src="svg/opensea.svg" alt="" className="fn__svg" />
                             </span>
-                            <span className="text">OpenSea</span>
+                            <span className="text">Linkedin</span>
                         </a>
                         <a
                             href="https://discord.com/"
@@ -106,7 +106,7 @@ const Nav = () => {
                             <span className="icon">
                                 <img src="svg/discord.svg" alt="" className="fn__svg" />
                             </span>
-                            <span className="text">Discord</span>
+                            <span className="text">Instagram</span>
                         </a>
                     </div>
                 </div>
@@ -116,10 +116,10 @@ const Nav = () => {
                         <p>
                             Copyright 2022- Designed &amp; Developed by{" "}
                             <a
-                                href="https://themeforest.net/user/frenify/portfolio"
+                                href="http://ipu.ac.in/usict/"
                                 target="_blank"
                             >
-                                Frenify
+                                Web Team
                             </a>
                         </p>
                     </div>
@@ -144,11 +144,6 @@ const Nav = () => {
                                 <li>
                                     <a href="/">
                                         <i className="fa-brands fa-pinterest" />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/">
-                                        <i className="fa-brands fa-behance" />
                                     </a>
                                 </li>
                             </ul>
