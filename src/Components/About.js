@@ -85,7 +85,7 @@ const About = () => {
                                 </div>
                                 {/* !About Item /1 */}
                                 {/* Guarantee List */}
-                                <div className="neoh_fn_gualist">
+                                {/* <div className="neoh_fn_gualist">
                                     <ul>
                                         <li>
                                             <div className="item">
@@ -121,10 +121,10 @@ const About = () => {
                                             </div>
                                         </li>
                                     </ul>
-                                </div>
+                                </div> */}
                                 {/* !Guarantee List */}
                                 {/* About Item /2 */}
-                                <div className="neoh_fn_about_item reverse">
+                                {/* <div className="neoh_fn_about_item reverse">
                                     <div className="img_item">
                                         <img src="img/about/2.jpg" alt="" />
                                     </div>
@@ -154,7 +154,7 @@ const About = () => {
                                             </a>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                                 {/* !About Item /2 */}
                             </div>
                         </section>
@@ -248,38 +248,28 @@ const About = () => {
                                             <div className="t_item">
                                                 <div className="person_info">
                                                     <div className="img_holder">
-                                                        <img src="img/author/2.jpg" alt="" />
+                                                        <img src={require("./Assets/img/author/dhruvgupta.png")} alt="" />
                                                     </div>
                                                     <div className="title_holder">
-                                                        <h3 className="fn_title">Owen Bradley</h3>
-                                                        <p className="fn_desc">2D Artist</p>
+                                                        <h3 className="fn_title">Dhruv Gupta</h3>
+                                                        <p className="fn_desc">Web Lead</p>
                                                     </div>
                                                 </div>
                                                 <div className="person_social">
                                                     <ul>
                                                         <li>
-                                                            <a href="/">
-                                                                <i className="fa-brands fa-twitter" />
+                                                            <a href="https://www.linkedin.com/in/dhruv-gupta-55034a228/" target='_blank' rel='noreferrer'>
+                                                                <i className="fa-brands fa-linkedin" />
                                                             </a>
                                                         </li>
                                                         <li>
-                                                            <a href="/">
-                                                                <i className="fa-brands fa-facebook" />
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/">
+                                                            <a href="https://instagram.com/dhruv._0810" target='_blank' rel='noreferrer'>
                                                                 <i className="fa-brands fa-instagram" />
                                                             </a>
                                                         </li>
                                                         <li>
-                                                            <a href="/">
-                                                                <i className="fa-brands fa-pinterest" />
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/">
-                                                                <i className="fa-brands fa-behance" />
+                                                            <a href="https://github.com/MR-DHRUV " target='_blank' rel='noreferrer'>
+                                                                <i className="fa-brands fa-github" />
                                                             </a>
                                                         </li>
                                                     </ul>
@@ -288,40 +278,30 @@ const About = () => {
                                         </li>
                                         <li className="team_item">
                                             <div className="t_item">
-                                                <div className="person_info">
+                                            <div className="person_info">
                                                     <div className="img_holder">
-                                                        <img src="img/author/3.jpg" alt="" />
+                                                        <img src={require("./Assets/img/author/dhruvgupta.png")} alt="" />
                                                     </div>
                                                     <div className="title_holder">
-                                                        <h3 className="fn_title">Daniel Bradley</h3>
-                                                        <p className="fn_desc">2D Artist</p>
+                                                        <h3 className="fn_title">Dhruv Gupta</h3>
+                                                        <p className="fn_desc">Web Lead</p>
                                                     </div>
                                                 </div>
                                                 <div className="person_social">
                                                     <ul>
                                                         <li>
-                                                            <a href="/">
-                                                                <i className="fa-brands fa-twitter" />
+                                                            <a href="https://www.linkedin.com/in/dhruv-gupta-55034a228/" target='_blank' rel='noreferrer'>
+                                                                <i className="fa-brands fa-linkedin" />
                                                             </a>
                                                         </li>
                                                         <li>
-                                                            <a href="/">
-                                                                <i className="fa-brands fa-facebook" />
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/">
+                                                            <a href="https://instagram.com/dhruv._0810" target='_blank' rel='noreferrer'>
                                                                 <i className="fa-brands fa-instagram" />
                                                             </a>
                                                         </li>
                                                         <li>
-                                                            <a href="/">
-                                                                <i className="fa-brands fa-pinterest" />
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/">
-                                                                <i className="fa-brands fa-behance" />
+                                                            <a href="https://github.com/MR-DHRUV " target='_blank' rel='noreferrer'>
+                                                                <i className="fa-brands fa-github" />
                                                             </a>
                                                         </li>
                                                     </ul>
@@ -330,40 +310,30 @@ const About = () => {
                                         </li>
                                         <li className="team_item">
                                             <div className="t_item">
-                                                <div className="person_info">
+                                            <div className="person_info">
                                                     <div className="img_holder">
-                                                        <img src="img/author/4.jpg" alt="" />
+                                                        <img src={require("./Assets/img/author/dhruvgupta.png")} alt="" />
                                                     </div>
                                                     <div className="title_holder">
-                                                        <h3 className="fn_title">Skylar Jarvis</h3>
-                                                        <p className="fn_desc">2D Artist</p>
+                                                        <h3 className="fn_title">Nishant Ola</h3>
+                                                        <p className="fn_desc">Web Lead</p>
                                                     </div>
                                                 </div>
                                                 <div className="person_social">
                                                     <ul>
                                                         <li>
-                                                            <a href="/">
-                                                                <i className="fa-brands fa-twitter" />
+                                                            <a href="https://www.linkedin.com/in/dhruv-gupta-55034a228/" target='_blank' rel='noreferrer'>
+                                                                <i className="fa-brands fa-linkedin" />
                                                             </a>
                                                         </li>
                                                         <li>
-                                                            <a href="/">
-                                                                <i className="fa-brands fa-facebook" />
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/">
+                                                            <a href="https://instagram.com/dhruv._0810" target='_blank' rel='noreferrer'>
                                                                 <i className="fa-brands fa-instagram" />
                                                             </a>
                                                         </li>
                                                         <li>
-                                                            <a href="/">
-                                                                <i className="fa-brands fa-pinterest" />
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/">
-                                                                <i className="fa-brands fa-behance" />
+                                                            <a href="https://github.com/MR-DHRUV " target='_blank' rel='noreferrer'>
+                                                                <i className="fa-brands fa-github" />
                                                             </a>
                                                         </li>
                                                     </ul>
@@ -372,40 +342,30 @@ const About = () => {
                                         </li>
                                         <li className="team_item">
                                             <div className="t_item">
-                                                <div className="person_info">
+                                            <div className="person_info">
                                                     <div className="img_holder">
-                                                        <img src="img/author/5.jpg" alt="" />
+                                                        <img src={require("./Assets/img/author/dhruvgupta.png")} alt="" />
                                                     </div>
                                                     <div className="title_holder">
-                                                        <h3 className="fn_title">Avery Briggs</h3>
-                                                        <p className="fn_desc">2D Artist</p>
+                                                        <h3 className="fn_title">Dhruv Gupta</h3>
+                                                        <p className="fn_desc">Web Lead</p>
                                                     </div>
                                                 </div>
                                                 <div className="person_social">
                                                     <ul>
                                                         <li>
-                                                            <a href="/">
-                                                                <i className="fa-brands fa-twitter" />
+                                                            <a href="https://www.linkedin.com/in/dhruv-gupta-55034a228/" target='_blank' rel='noreferrer'>
+                                                                <i className="fa-brands fa-linkedin" />
                                                             </a>
                                                         </li>
                                                         <li>
-                                                            <a href="/">
-                                                                <i className="fa-brands fa-facebook" />
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/">
+                                                            <a href="https://instagram.com/dhruv._0810" target='_blank' rel='noreferrer'>
                                                                 <i className="fa-brands fa-instagram" />
                                                             </a>
                                                         </li>
                                                         <li>
-                                                            <a href="/">
-                                                                <i className="fa-brands fa-pinterest" />
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/">
-                                                                <i className="fa-brands fa-behance" />
+                                                            <a href="https://github.com/MR-DHRUV " target='_blank' rel='noreferrer'>
+                                                                <i className="fa-brands fa-github" />
                                                             </a>
                                                         </li>
                                                     </ul>
@@ -414,40 +374,30 @@ const About = () => {
                                         </li>
                                         <li className="team_item">
                                             <div className="t_item">
-                                                <div className="person_info">
+                                            <div className="person_info">
                                                     <div className="img_holder">
-                                                        <img src="img/author/6.jpg" alt="" />
+                                                        <img src={require("./Assets/img/author/dhruvgupta.png")} alt="" />
                                                     </div>
                                                     <div className="title_holder">
-                                                        <h3 className="fn_title">Bernard Green</h3>
-                                                        <p className="fn_desc">2D Artist</p>
+                                                        <h3 className="fn_title">Dhruv Gupta</h3>
+                                                        <p className="fn_desc">Web Lead</p>
                                                     </div>
                                                 </div>
                                                 <div className="person_social">
                                                     <ul>
                                                         <li>
-                                                            <a href="/">
-                                                                <i className="fa-brands fa-twitter" />
+                                                            <a href="https://www.linkedin.com/in/dhruv-gupta-55034a228/" target='_blank' rel='noreferrer'>
+                                                                <i className="fa-brands fa-linkedin" />
                                                             </a>
                                                         </li>
                                                         <li>
-                                                            <a href="/">
-                                                                <i className="fa-brands fa-facebook" />
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/">
+                                                            <a href="https://instagram.com/dhruv._0810" target='_blank' rel='noreferrer'>
                                                                 <i className="fa-brands fa-instagram" />
                                                             </a>
                                                         </li>
                                                         <li>
-                                                            <a href="/">
-                                                                <i className="fa-brands fa-pinterest" />
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/">
-                                                                <i className="fa-brands fa-behance" />
+                                                            <a href="https://github.com/MR-DHRUV " target='_blank' rel='noreferrer'>
+                                                                <i className="fa-brands fa-github" />
                                                             </a>
                                                         </li>
                                                     </ul>
