@@ -82,11 +82,12 @@
 } */
 
 #services {
-  margin: 7rem;
-  margin-top: 12.5rem;
-  background-color: rgba(64, 60, 60, 0.50);
+  /* margin: 7rem; */
+  margin-top: 8rem;
+  /* background-color: rgba(64, 60, 60, 0.50); */
+  background-color: rgba(0, 0, 0, 0.55);
   border: 5px transparent;
-  border-radius: 41px;
+  /* border-radius: 41px; */
 }
 
 .atmosphere {

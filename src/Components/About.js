@@ -1,4 +1,6 @@
 import React from 'react'
+import NeonRain from './NeonRain'
+import MatrixRain from './MatrixRain'
 
 const About = () => {
     return (
@@ -11,7 +13,7 @@ const About = () => {
                     <div className="neoh_fn_pagetitle">
                         <div className="bg_overlay">
                             <div className="bg_color" />
-                            <div className="bg_image" data-bg-img="img/hero/bg.jpg" />
+                            {/* <div className="bg_image" data-bg-img="img/hero/bg.jpg" /> */}
                         </div>
                         <div className="pt_content">
                             <div className="container">
@@ -20,13 +22,13 @@ const About = () => {
                                     data-wait={1000}
                                     data-speed={8}
                                 >
-                                    About
+                                    About Us
                                 </h3>
-                                <p className="fn_desc">
-                                    <a href="index.html">Home</a>
-                                    <span className="separator">/</span>
-                                    <span className="current">About</span>
-                                </p>
+                                    {/* <p className="fn_desc">
+                                        <a href="/">Home</a>
+                                        <span className="separator">/</span>
+                                        <span className="current">About</span>
+                                    </p> */}
                             </div>
                         </div>
                     </div>
@@ -34,21 +36,22 @@ const About = () => {
                     {/* About Page */}
                     <div className="neoh_fn_aboutpage">
                         {/* Information Section */}
-                        <section id="information">
+                        <section id="information" class="nobackground">
                             <div className="container">
                                 {/* About Item /1 */}
                                 <div className="neoh_fn_about_item">
                                     <div className="img_item">
-                                        <img src="img/about/1.jpg" alt="" />
+                                        <img src={require('./Assets/img/about/USICT.jpeg')} alt="" />
                                     </div>
                                     <div className="content_item">
+                                        <MatrixRain />
                                         <div className="neoh_fn_title" data-align="left">
-                                            <h3 className="fn_title">The Rise of Neoh</h3>
+                                            <h3 className="fn_title  atmosphere">USICT</h3>
                                             <div className="line">
                                                 <span />
                                             </div>
                                         </div>
-                                        <div className="desc">
+                                        <div className="desc atmospheric">
                                             <p>
                                                 As the first hero of the Neoh Universe, collection has over
                                                 9,999 unique skins drawn from the different missions and
@@ -196,7 +199,7 @@ const About = () => {
                             <div className="container">
                                 {/* Main Title */}
                                 <div className="neoh_fn_title">
-                                    <h3 className="fn_title">Our Team Members</h3>
+                                    <h3 className="fn_title atmosphere">Our Team Members</h3>
                                     <div className="line">
                                         <span />
                                     </div>
