@@ -44,7 +44,7 @@ const Home = () => {
                                 {/* !Overlay Image */}
                             </div>
                             {/* Overlay (of hero header) */}
-                            <div className="hero_content">
+                            <div className="hero_content justify-content-end">
                                 <div className="container">
                                     <div className="content">
                                         <h2 className="fn_title atmosphere landingHead" title="Neoh">
