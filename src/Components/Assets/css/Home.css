@@ -445,3 +445,7 @@
 .neoh_fn_timeline .nav_next {
   right: 0;
 }
+
+body{
+  overflow-x: hidden !important;
+}
