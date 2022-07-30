@@ -68,6 +68,11 @@
     margin-bottom: 2vh;
 }
 
-.myNavIcons{
+.myNavIcons {
     margin-top: -21px !important;
+}
+
+.myHeadSection {
+    margin-top: 15vh;
+    padding: 0px !important;
 }

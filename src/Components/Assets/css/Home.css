@@ -1,8 +1,13 @@
 @font-face {
   font-family: atmospheric;
   src: url("../fonts/aAtmospheric.ttf");
+  /* src: url("../fonts/Kurinji-Regular.otf"); */
 }
 
+@font-face {
+  font-family: heading;
+  src: url("../fonts/Kurinji-Regular.otf");
+}
 .neoh_fn_services ul {
   display: flex;
   justify-content: center;
@@ -93,9 +98,11 @@
 .atmosphere {
   font-family: atmospheric !important;
 }
+
 .landingHead{
+  font-family: heading !important;
   max-width: none !important;
-  font-size: 5rem !important;
+  font-size: 7rem !important;
   letter-spacing: 1rem !important;
 
 }

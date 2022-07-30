@@ -104,7 +104,7 @@ const Nav = () => {
                             <i class="footerSocial fa-solid fa-globe"></i>
 
                             </span>
-                            <span className="text">Website</span>
+                            <span className="text">Linkedin</span>
                         </a>
                         <a
                             href="https://instagram.com/ggsipuindia"
@@ -127,10 +127,10 @@ const Nav = () => {
                         <p>
                             Copyright 2022- Designed &amp; Developed by{" "}
                             <a
-                                href="https://themeforest.net/user/frenify/portfolio"
+                                href="http://ipu.ac.in/usict/"
                                 target="_blank"
                             >
-                                Frenify
+                                Web Team
                             </a>
                         </p>
                     </div>
@@ -155,11 +155,6 @@ const Nav = () => {
                                 <li>
                                     <a href="/">
                                         <i className="fa-brands fa-pinterest" />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/">
-                                        <i className="fa-brands fa-behance" />
                                     </a>
                                 </li>
                             </ul>
