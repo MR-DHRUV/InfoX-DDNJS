@@ -8,15 +8,12 @@ const Contact = () => {
         {/* Content */}
         <div className="neoh_fn_content">
           {/* Page Title */}
-          <div className="neoh_fn_pagetitle">
-            <div className="Mybg_overlay">
-              <div className="bg_color" />
-              <div id="bg_wali_image" className="bg_image" data-bg-img="img/hero/bg.jpg" />
-            </div>
+          <div className="neoh_fn_pagetitle myHeadSection">
+            <div className="bg_color" />
             <div className="pt_content">
               <div className="container">
                 <h3
-                  className="fn_title fn_animated_text theme atmosphere"
+                  className="fn_title fn_animated_text theme atmosphere HeadH3Res"
                   data-wait={1000}
                   data-speed={8}
                 >
