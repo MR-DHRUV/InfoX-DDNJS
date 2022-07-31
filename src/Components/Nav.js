@@ -101,7 +101,7 @@ const Nav = () => {
                             rel='noreferrer'
                         >
                             <span className="icon myNavIcons">
-                            <i class="footerSocial fa-solid fa-globe"></i>
+                                <i class="footerSocial fa-solid fa-globe"></i>
 
                             </span>
                             <span className="text">Linkedin</span>
@@ -170,7 +170,7 @@ const Nav = () => {
                     <div className="header_in">
                         <div className="logo">
                             <a href="index.html">
-                                <img src="./Assets//logo.png" alt="" />
+                                {/* <img src="./Assets//logo.png" alt="" /> */}
                             </a>
                         </div>
                         <div className="trigger">
