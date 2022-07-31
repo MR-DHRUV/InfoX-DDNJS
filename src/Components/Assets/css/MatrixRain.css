@@ -3,12 +3,12 @@ canvas {
   top: 0px;
   left: 0px;
   z-index: -999;
-  width: 100vw !important;
+  width: 150vw !important;
   height: 150vh !important;
   margin: -7rem;
 }
 
-#canvas-club{
+#canvas-club {
   height: 135vh !important;
   width: 100vw !important;
   margin: 0px;
@@ -22,4 +22,14 @@ canvas {
   canvas {
     margin: 0rem !important;
   }
+}
+
+@media (max-width : 460px) {
+  #canvas-club {
+    height: 160vh !important;
+  }
+  .HeadH3Res{
+    font-size: 2.4rem !important;
+  }
+
 }

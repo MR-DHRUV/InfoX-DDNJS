@@ -74,7 +74,7 @@ const Nav = () => {
                                 <Link to="/">Home</Link>
                             </li>
                             <li className="menu-item">
-                                <Link to="/about">About</Link>
+                                <Link to="/about">About Us</Link>
                             </li>
                             {/* <li className="menu-item">
                                 <a href="collection.html">Collection</a>
@@ -85,28 +85,39 @@ const Nav = () => {
                             <li className="menu-item">
                                 <Link to="/contact">Contact</Link>
                             </li>
+                            <li className="menu-item">
+                                <Link to="/schedule">Schedule</Link>
+                            </li>
+                            <li className="menu-item">
+                                <Link to="/legacy">Legacy</Link>
+                            </li>
                         </ul>
                     </div>
                     <div className="nav_buttons">
                         <a
-                            href="https://opensea.io/"
+                            href="http://ipu.ac.in/"
                             className="neoh_fn_button"
                             target="_blank"
+                            rel='noreferrer'
                         >
-                            <span className="icon">
-                                <img src="svg/opensea.svg" alt="" className="fn__svg" />
+                            <span className="icon myNavIcons">
+                                <i class="footerSocial fa-solid fa-globe"></i>
+
                             </span>
-                            <span className="text">OpenSea</span>
+                            <span className="text">Linkedin</span>
                         </a>
                         <a
-                            href="https://discord.com/"
+                            href="https://instagram.com/ggsipuindia"
                             className="neoh_fn_button"
                             target="_blank"
+                            rel='noreferrer'
                         >
-                            <span className="icon">
-                                <img src="svg/discord.svg" alt="" className="fn__svg" />
+                            <span className="icon myNavIcons">
+                                {/* <img src="svg/discord.svg" alt="" className="fn__svg" /> */}
+                                {/* <img src="svg/discord.svg" alt="" className="fn__svg" /> */}
+                                <i class="footerSocial fa-brands fa-instagram"></i>
                             </span>
-                            <span className="text">Discord</span>
+                            <span className="text">Instagram</span>
                         </a>
                     </div>
                 </div>
@@ -116,10 +127,10 @@ const Nav = () => {
                         <p>
                             Copyright 2022- Designed &amp; Developed by{" "}
                             <a
-                                href="https://themeforest.net/user/frenify/portfolio"
+                                href="http://ipu.ac.in/usict/"
                                 target="_blank"
                             >
-                                Frenify
+                                Web Team
                             </a>
                         </p>
                     </div>
@@ -146,11 +157,6 @@ const Nav = () => {
                                         <i className="fa-brands fa-pinterest" />
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="/">
-                                        <i className="fa-brands fa-behance" />
-                                    </a>
-                                </li>
                             </ul>
                         </div>
                     </div>
@@ -164,7 +170,7 @@ const Nav = () => {
                     <div className="header_in">
                         <div className="logo">
                             <a href="index.html">
-                                <img src="./Assets//logo.png" alt="" />
+                                {/* <img src="./Assets//logo.png" alt="" /> */}
                             </a>
                         </div>
                         <div className="trigger">

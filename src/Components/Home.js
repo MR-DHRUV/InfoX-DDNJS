@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import "./Assets/css/Home.css"
 import MatrixRain from './MatrixRain';
+import TimeLineCard from './TimeLineCard';
 
 const Home = () => {
 
@@ -44,18 +45,24 @@ const Home = () => {
                                 {/* !Overlay Image */}
                             </div>
                             {/* Overlay (of hero header) */}
-                            <div className="hero_content justify-content-end">
+                            <div className="hero_content justify-content-end mainHeroHeadDiv">
                                 <div className="container">
                                     <div className="content">
-                                        <h2 className="fn_title atmosphere landingHead" title="Neoh">
+                                        {window.innerWidth > '650' ? <h2 className="fn_title heading landingHead" title="Neoh">
                                             infoXpression
-                                        </h2>
-                                        <p className="fn_desc fn_animated_text">
+                                        </h2> :
+                                            <div className="d-flex justify-content-center flex-column">
+                                                <h2 className="fn_title heading landingHead" title="Neoh">info</h2>
+                                                <h2 className="fn_title heading landingHead" title="Neoh">Xpression</h2>
+                                            </div>
+
+                                        }
+                                        <p className="fn_desc fn_animated_text heroSubHead">
                                             SEPTEMBER X - Y 2022
                                             TECHFEST USICT | GGSIPU
                                             CELEBRATING THE SENSE OF BELONGING
                                         </p>
-                                     
+
                                     </div>
                                 </div>
                                 <a
@@ -178,7 +185,7 @@ const Home = () => {
                             {/* !Dividers */}
                             <div className="container">
                                 {/* Main Title */}
-                                <div className="neoh_fn_title">
+                                <div className="neoh_fn_title mbLow">
                                     <h1 className="fn_title theme Heading">Glimpses</h1>
                                     <div className="line">
                                         <span />
@@ -298,7 +305,7 @@ const Home = () => {
                                         <span />
                                     </div>
                                 </div> */}
-                          
+
                                 {/* <div className="neoh_fn_drops">
                                     <ul>
                                         <li>
@@ -599,327 +606,39 @@ const Home = () => {
                                     </a>
                                  
                                 </div> */}
-                   
+
                                 <div className="neoh_fn_title">
                                     <h3 className="fn_title theme Heading ">Schedule</h3>
                                     <div className="line">
                                         <span />
                                     </div>
                                 </div>
-                          
+
                                 <div className="neoh_fn_timeline ">
 
                                     <div className="timeline_content ">
-                                       
                                         <ul className="timeline_list">
-                                            <li className="timeline_item" data-index={1}>
-                                                <div className="t_item">
-                                                    <div className="t_item_img">
-                                                        <div className="schedule_fn_gallery_1_2">
-                                                            <div className="schedule-gallery_in">
-                                                                <div className="item">
-                                                                    <img src={require("./Assets/img/timeline/1/1.jpg")} alt="" />
-                                                                </div>
-                                                                
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="t_item_info">
-                                                        <p className="fn_date atmosphere">
-                                                            <span>Date &amp; Time</span>
-                                                        </p>
-                                                        <h3 className="fn_title atmosphere">
-                                                            <a href="roadmap-single.html">
-                                                                Event Name
-                                                            </a>
-                                                        </h3>
-                                                        <p className="fn_desc ">
-                                                        Morbi non dignissim erat, a blandit felis. Suspendisse
-                                                            nec lorem vel orci varius congue ut vitae est. Nam quis
-                                                            tempus nisl. Fusce posuere nibh a mi molestie, sit amet
-                                                            ornare lectus interdum.
-                                                        </p>
-                                                        <p className="fn_read">
-                                                            <a
-                                                                href="roadmap-single.html"
-                                                                className="neoh_fn_button only_text"
-                                                            >
-                                                                <span className="text ">Know More</span>
-                                                            </a>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li className="timeline_item" data-index={2}>
-                                                <div className="t_item">
-                                                    <div className="t_item_img">
-                                                        <div className="neoh_fn_gallery_1_2">
-                                                            <div className="gallery_in">
-                                                                <div className="item row2">
-                                                                    <img src={require("./Assets/img/timeline/2/1.jpg")} alt="" />
-                                                                </div>
-                                                                <div className="item">
-                                                                    <img src={require("./Assets/img/timeline/2/2.jpg")}alt="" />
-                                                                </div>
-                                                                <div className="item">
-                                                                    <img src={require("./Assets/img/timeline/2/3.jpg")}alt="" />
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="t_item_info">
-                                                        <p className="fn_date atmosphere">
-                                                            <span> Date &amp; Time </span>
-                                                        </p>
-                                                        <h3 className="fn_title atmosphere">
-                                                            <a href="roadmap-single.html">
-                                                                Event Name
-                                                            </a>
-                                                        </h3>
-                                                        <p className="fn_desc ">
-                                                        Morbi non dignissim erat, a blandit felis. Suspendisse
-                                                            nec lorem vel orci varius congue ut vitae est. Nam quis
-                                                            tempus nisl. Fusce posuere nibh a mi molestie, sit amet
-                                                            ornare lectus interdum.
-                                                        </p>
-                                                        <p className="fn_read">
-                                                            <a
-                                                                href="roadmap-single.html"
-                                                                className="neoh_fn_button only_text"
-                                                            >
-                                                                <span className="text ">Know More</span>
-                                                            </a>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li className="timeline_item active" data-index={3}>
-                                                <div className="t_item">
-                                                    <div className="t_item_img">
-                                                        <div className="neoh_fn_gallery_1_2">
-                                                            <div className="gallery_in">
-                                                                <div className="item row2">
-                                                                    <img src="./Assets//timeline/3/1.jpg" alt="" />
-                                                                </div>
-                                                                <div className="item">
-                                                                    <img src="./Assets//timeline/3/2.jpg" alt="" />
-                                                                </div>
-                                                                <div className="item">
-                                                                    <img src="./Assets//timeline/3/3.jpg" alt="" />
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="t_item_info">
-                                                        <p className="fn_date">
-                                                            <span>June 01, 2022</span>
-                                                        </p>
-                                                        <h3 className="fn_title">
-                                                            <a href="roadmap-single.html">
-                                                                Mini Game Lounch For Community
-                                                            </a>
-                                                        </h3>
-                                                        <p className="fn_desc">
-                                                            Morbi non dignissim erat, a blandit felis. Suspendisse
-                                                            nec lorem vel orci varius congue ut vitae est. Nam quis
-                                                            tempus nisl. Fusce posuere nibh a mi molestie, sit amet
-                                                            ornare lectus interdum.
-                                                        </p>
-                                                        <p className="fn_read">
-                                                            <a
-                                                                href="roadmap-single.html"
-                                                                className="neoh_fn_button only_text"
-                                                            >
-                                                                <span className="text">Read More</span>
-                                                            </a>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li className="timeline_item" data-index={4}>
-                                                <div className="t_item">
-                                                    <div className="t_item_img">
-                                                        <div className="neoh_fn_gallery_1_2">
-                                                            <div className="gallery_in">
-                                                                <div className="item row2">
-                                                                    <img src="./Assets//timeline/4/1.jpg" alt="" />
-                                                                </div>
-                                                                <div className="item">
-                                                                    <img src="./Assets//timeline/4/2.jpg" alt="" />
-                                                                </div>
-                                                                <div className="item">
-                                                                    <img src="./Assets//timeline/4/3.jpg" alt="" />
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="t_item_info">
-                                                        <p className="fn_date">
-                                                            <span>June 07, 2022</span>
-                                                        </p>
-                                                        <h3 className="fn_title">
-                                                            <a href="roadmap-single.html">
-                                                                New Character Set /15 is Coming Up
-                                                            </a>
-                                                        </h3>
-                                                        <p className="fn_desc">
-                                                            Morbi non dignissim erat, a blandit felis. Suspendisse
-                                                            nec lorem vel orci varius congue ut vitae est. Nam quis
-                                                            tempus nisl. Fusce posuere nibh a mi molestie, sit amet
-                                                            ornare lectus interdum.
-                                                        </p>
-                                                        <p className="fn_read">
-                                                            <a
-                                                                href="roadmap-single.html"
-                                                                className="neoh_fn_button only_text"
-                                                            >
-                                                                <span className="text">Read More</span>
-                                                            </a>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li className="timeline_item" data-index={5}>
-                                                <div className="t_item">
-                                                    <div className="t_item_img">
-                                                        <div className="neoh_fn_gallery_1_2">
-                                                            <div className="gallery_in">
-                                                                <div className="item row2">
-                                                                    <img src="./Assets//timeline/5/1.jpg" alt="" />
-                                                                </div>
-                                                                <div className="item">
-                                                                    <img src="./Assets//timeline/5/2.jpg" alt="" />
-                                                                </div>
-                                                                <div className="item">
-                                                                    <img src="./Assets//timeline/5/3.jpg" alt="" />
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="t_item_info">
-                                                        <p className="fn_date">
-                                                            <span>June 15, 2022</span>
-                                                        </p>
-                                                        <h3 className="fn_title">
-                                                            <a href="roadmap-single.html">
-                                                                New Spirit Set /01 is Coming Up
-                                                            </a>
-                                                        </h3>
-                                                        <p className="fn_desc">
-                                                            Morbi non dignissim erat, a blandit felis. Suspendisse
-                                                            nec lorem vel orci varius congue ut vitae est. Nam quis
-                                                            tempus nisl. Fusce posuere nibh a mi molestie, sit amet
-                                                            ornare lectus interdum.
-                                                        </p>
-                                                        <p className="fn_read">
-                                                            <a
-                                                                href="roadmap-single.html"
-                                                                className="neoh_fn_button only_text"
-                                                            >
-                                                                <span className="text">Read More</span>
-                                                            </a>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li className="timeline_item" data-index={6}>
-                                                <div className="t_item">
-                                                    <div className="t_item_img">
-                                                        <div className="neoh_fn_gallery_1_2">
-                                                            <div className="gallery_in">
-                                                                <div className="item row2">
-                                                                    <img src="./Assets//timeline/6/1.jpg" alt="" />
-                                                                </div>
-                                                                <div className="item">
-                                                                    <img src="./Assets//timeline/6/2.jpg" alt="" />
-                                                                </div>
-                                                                <div className="item">
-                                                                    <img src="./Assets//timeline/6/3.jpg" alt="" />
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="t_item_info">
-                                                        <p className="fn_date">
-                                                            <span>June 23, 2022</span>
-                                                        </p>
-                                                        <h3 className="fn_title">
-                                                            <a href="roadmap-single.html">
-                                                                New Haircut Collection /01 is Coming Up
-                                                            </a>
-                                                        </h3>
-                                                        <p className="fn_desc">
-                                                            Morbi non dignissim erat, a blandit felis. Suspendisse
-                                                            nec lorem vel orci varius congue ut vitae est. Nam quis
-                                                            tempus nisl. Fusce posuere nibh a mi molestie, sit amet
-                                                            ornare lectus interdum.
-                                                        </p>
-                                                        <p className="fn_read">
-                                                            <a
-                                                                href="roadmap-single.html"
-                                                                className="neoh_fn_button only_text"
-                                                            >
-                                                                <span className="text">Read More</span>
-                                                            </a>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li className="timeline_item" data-index={7}>
-                                                <div className="t_item">
-                                                    <div className="t_item_img">
-                                                        <div className="neoh_fn_gallery_1_2">
-                                                            <div className="gallery_in">
-                                                                <div className="item row2">
-                                                                    <img src="./Assets//timeline/7/1.jpg" alt="" />
-                                                                </div>
-                                                                <div className="item">
-                                                                    <img src="./Assets//timeline/7/2.jpg" alt="" />
-                                                                </div>
-                                                                <div className="item">
-                                                                    <img src="./Assets//timeline/7/3.jpg" alt="" />
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="t_item_info">
-                                                        <p className="fn_date">
-                                                            <span>July 01, 2022</span>
-                                                        </p>
-                                                        <h3 className="fn_title">
-                                                            <a href="roadmap-single.html">
-                                                                New Haircut Collection /02 is Coming Up
-                                                            </a>
-                                                        </h3>
-                                                        <p className="fn_desc">
-                                                            Morbi non dignissim erat, a blandit felis. Suspendisse
-                                                            nec lorem vel orci varius congue ut vitae est. Nam quis
-                                                            tempus nisl. Fusce posuere nibh a mi molestie, sit amet
-                                                            ornare lectus interdum.
-                                                        </p>
-                                                        <p className="fn_read">
-                                                            <a
-                                                                href="roadmap-single.html"
-                                                                className="neoh_fn_button only_text"
-                                                            >
-                                                                <span className="text">Read More</span>
-                                                            </a>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </li>
+                                        <TimeLineCard index={1} />
+                                        <TimeLineCard index={2} />
+                                        <TimeLineCard index={3} />
+                                        <TimeLineCard index={4} />
+                                        <TimeLineCard index={5} />
+                                        <TimeLineCard index={6} />
+                                        <TimeLineCard index={7} />
+                                        <TimeLineCard index={8} />
+                                        <TimeLineCard index={9} />
                                         </ul>
                                     </div>
-           
+
                                     <div className="timeline_progress">
-                                      
+
                                         <a href="/" className="nav_prev">
                                             <img src="svg/right-arr.svg" alt="" className="fn__svg" />
                                         </a>
                                         <a href="/" className="nav_next">
                                             <img src="svg/right-arr.svg" alt="" className="fn__svg" />
                                         </a>
-           
+
                                         <div className="progress_line_wrapper">
                                             <div className="progress_line">
                                                 <ul>
@@ -970,7 +689,7 @@ const Home = () => {
                                             </div>
                                         </div>
                                     </div>
-                    
+
                                 </div>
 
                             </div>
@@ -1085,16 +804,16 @@ const Home = () => {
                         {/* Blog Section */}
                         {/* <section id="blog">
                             <div className="container"> */}
-                                {/* Main Title */}
-                                {/* <div className="neoh_fn_title">
+                        {/* Main Title */}
+                        {/* <div className="neoh_fn_title">
                                     <h3 className="fn_title">Neoh’s News</h3>
                                     <div className="line">
                                         <span />
                                     </div>
                                 </div> */}
-                                {/* !Main Title */}
-                                {/* Moving Blog List Shortcode */}
-                                {/* <div className="neoh_fn_moving_blog">
+                        {/* !Main Title */}
+                        {/* Moving Blog List Shortcode */}
+                        {/* <div className="neoh_fn_moving_blog">
                                     <ul>
                                         <li>
                                             <div className="item">
@@ -1173,17 +892,17 @@ const Home = () => {
                                         </li>
                                     </ul>
                                 </div> */}
-                                {/* !Moving Blog List Shortcode */}
-                            {/* </div> */}
+                        {/* !Moving Blog List Shortcode */}
+                        {/* </div> */}
                         {/* </section> */}
                         {/* !Blog Section */}
                     </div>
                     {/* Content */}
                     {/* Footer */}
                     {/* <footer id="footer"> */}
-                        {/* <div className="neoh_fn_footer"> */}
-                            {/* Footer Top */}
-                            {/* <div className="footer_top">
+                    {/* <div className="neoh_fn_footer"> */}
+                    {/* Footer Top */}
+                    {/* <div className="footer_top">
                                 <div className="container">
                                     <div className="ft_in">
                                         <div className="desc">
@@ -1246,9 +965,9 @@ const Home = () => {
                                     </div>
                                 </div>
                             </div> */}
-                            {/* !Footer Top */}
-                            {/* Footer Bottom */}
-                            {/* <div className="footer_bottom">
+                    {/* !Footer Top */}
+                    {/* Footer Bottom */}
+                    {/* <div className="footer_bottom">
                                 <div className="container">
                                     <div className="fb_in">
                                         <div className="fb_left">
@@ -1278,8 +997,8 @@ const Home = () => {
                                     </div>
                                 </div>
                             </div> */}
-                            {/* !Footer Bottom */}
-                        {/* </div> */}
+                    {/* !Footer Bottom */}
+                    {/* </div> */}
                     {/* </footer> */}
                     {/* !Footer */}
                     {/* Totop */}

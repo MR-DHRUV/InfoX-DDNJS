@@ -1,6 +1,12 @@
 @font-face {
   font-family: atmospheric;
   src: url("../fonts/aAtmospheric.ttf");
+  /* src: url("../fonts/Kurinji-Regular.otf"); */
+}
+
+@font-face {
+  font-family: heading;
+  src: url("../fonts/Kurinji-Regular.otf");
 }
 
 .neoh_fn_services ul {
@@ -8,22 +14,27 @@
   justify-content: center;
   text-align: center;
 }
+
 .neoh_fn_services .sn_glimp_head {
   font-size: 3.3rem;
 }
+
 .sn_exp {
   color: #252525;
 }
+
 .sn_exp:hover {
   color: #78f701;
 }
+
 .item_content {
-  min-height: 290px !important;
+  min-height: 240px !important;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
 .investerUl {
   display: flex;
   justify-content: center;
@@ -34,8 +45,13 @@
   margin-left: 1.5rem;
   margin-bottom: 4rem;
 }
+
 .theme {
   color: #78f701;
+}
+
+.mbLow{
+  margin-bottom: 2rem !important;
 }
 
 @media (max-width: 800px) {
@@ -46,6 +62,7 @@
     min-width: 250px;
     width: 100vw;
   }
+
   #services {
     margin: 0.5rem !important;
   }
@@ -56,6 +73,7 @@
   letter-spacing: 0.25rem;
   font-family: atmospheric;
 }
+
 .InvesterHeading {
   display: flex;
   text-align: center;
@@ -69,7 +87,8 @@
 }
 
 .item_content {
-  background-color: rgba(165, 163, 163, 0.459);
+  /* background-color: rgba(165, 163, 163, 0.459); */
+  background-color: rgba(165, 163, 163, 0.18);
 }
 
 /* #services {
@@ -82,26 +101,31 @@
 } */
 
 #services {
-  margin: 7rem;
-  margin-top: 12.5rem;
-  background-color: rgba(64, 60, 60, 0.50);
+  /* margin: 7rem; */
+  margin-top: 8rem;
+  /* background-color: rgba(64, 60, 60, 0.50); */
+  background-color: rgba(0, 0, 0, 0.55);
   border: 5px transparent;
-  border-radius: 41px;
+  border-top: 1px solid #ffffff36;
+  /* border-radius: 41px; */
 }
 
 .atmosphere {
   font-family: atmospheric !important;
 }
-.landingHead{
+
+.landingHead {
+  font-family: heading !important;
   max-width: none !important;
-  font-size: 5rem !important;
+  font-size: 7rem !important;
   letter-spacing: 1rem !important;
 
 }
 
-.bg_image{
+.bg_image {
   z-index: 2 !important;
 }
+
 /* Gallery 1-2 */
 .schedule_fn_gallery_1_2 .schedule-gallery_in {
   /* --gap: 20px; */
@@ -443,4 +467,87 @@
 
 .neoh_fn_timeline .nav_next {
   right: 0;
+}
+
+body {
+  overflow-x: hidden !important;
+}
+
+.mainHeroHeadDiv {
+  padding-bottom: 120px !important;
+}
+
+@media (min-width : 1800px) {
+
+  .landingHead {
+    font-size: 6rem !important;
+  }
+
+  .heroSubHead {
+    font-size: 1.2rem !important;
+    color: white !important;
+  }
+}
+
+@media (max-width : 1120px) {
+
+  .landingHead {
+    font-size: 5.5rem !important;
+  }
+
+  .heroSubHead {
+    font-size: 1.2rem !important;
+    color: white !important;
+  }
+}
+
+@media (max-width : 900px) {
+
+  .landingHead {
+    font-size: 4.5rem !important;
+  }
+
+}
+
+@media (max-width : 650px) {
+
+  .landingHead {
+    font-size: 3rem !important;
+    color: white !important;
+  }
+
+  .heroSubHead {
+    font-size: 1rem !important;
+    color: white !important;
+  }
+
+  .video {
+    margin-left: 50vw;
+    transform: translate(-50%);
+    width: 280vw !important;
+    margin-top: 12vh !important;
+  }
+
+  .neoh_fn_hero {
+    background-color: #4b1951;
+  }
+}
+
+.neoh_fn_services .item_content {
+  border: 2px solid var(--extra-color);
+  border-radius: 5px;
+  transition: all .3s ease;
+  padding: 2rem;
+}
+
+@media (max-width : 400px) {
+  .landingHead {
+    font-size: 2.5rem !important;
+    color: white !important;
+  }
+
+  .heroSubHead {
+    font-size: 1rem !important;
+    color: white !important;
+  }
 }
