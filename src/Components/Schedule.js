@@ -1,13 +1,23 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import TimeLineCard from './TimeLineCard'
+import './Assets/css/NeonButtons.css'
 
 const Schedule = () => {
+
+    useEffect(() => {
+
+        document.getElementById('myCheckedBtn111').click();
+
+    }, [])
+
+
+
     return (
         <div>
             <div className="neoh_fn_main" data-footer-sticky="">
                 <div className="neoh_fn_content">
                     {/* Hero Header */}
-                    <div className="neoh_fn_hero half">
+                    <div className="neoh_fn_hero half border-bottom">
                         {/* Overlay (of hero header) */}
                         <div className="bg_overlay">
                             {/* Overlay Slider */}
@@ -60,16 +70,43 @@ const Schedule = () => {
                     </div>
                     {/* !Hero Header */}
                     {/* Drops Section */}
-                    <section id="drop">
+                    <section id="drop" className='bgColorTimelineSec'>
                         <div className="container">
-                            <div className="neoh_fn_title">
-                                <h3 className="fn_title">Neoh’s Roadmap</h3>
+                            <div className="neoh_fn_title mb-5 pb-1">
+                                <h3 className="fn_title theme Heading ">Schedule</h3>
                                 <div className="line">
                                     <span />
                                 </div>
                             </div>
                             {/* !Main Title */}
                             {/* Timeline */}
+                            <div className="days d-flex flex-row mb-4">
+
+                                <button class="dayBtn atmosphere" id='myCheckedBtn111'>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    Day 1
+                                </button>
+
+                                <button class="dayBtn atmosphere">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    Day 2
+                                </button>
+
+                                <button class="dayBtn atmosphere">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    Day 3
+                                </button>
+                            </div>
+
                             <div className="neoh_fn_timeline">
                                 {/* Timeline Content */}
                                 <div className="timeline_content">
@@ -90,10 +127,15 @@ const Schedule = () => {
                                 <div className="timeline_progress">
                                     {/* Nav */}
                                     <a href="#" className="nav_prev">
-                                        <img src="svg/right-arr.svg" alt="" className="fn__svg" />
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left timeLineSvgPrev" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                                        </svg>
                                     </a>
                                     <a href="#" className="nav_next">
-                                        <img src="svg/right-arr.svg" alt="" className="fn__svg" />
+                                        {/* <img src="svg/right-arr.svg" alt="" className="fn__svg" /> */}
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right timeLineSvgNext" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                        </svg>
                                     </a>
                                     {/* !Nav */}
                                     <div className="progress_line_wrapper">

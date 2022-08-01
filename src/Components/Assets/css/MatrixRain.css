@@ -15,6 +15,7 @@ canvas {
   padding: 0px;
   overflow-x: hidden;
   min-height: 100vh !important;
+  opacity: 0.6;
 }
 
 

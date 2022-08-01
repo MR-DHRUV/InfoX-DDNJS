@@ -31,7 +31,7 @@ const TimeLineCard = (props) => {
                     </p>
                     <p className="fn_read">
                         <a
-                            href="roadmap-single.html"
+                            href="#"
                             className="neoh_fn_button only_text"
                         >
                             <span className="text ">Know More</span>
