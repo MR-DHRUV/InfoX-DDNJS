@@ -1,8 +1,22 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./Assets/css/legacy.css"
 import "./Assets/css/contact.css"
 import "./Assets/css/Home.css"
 const Legacy = () => {
+
+  useEffect(() => {
+    setInterval(() => {
+      let lightup = Math.floor(Math.random() * (12) + 1);
+      document.getElementById(`sponsorImg-${lightup}`).style.filter = 'grayscale(0%)';
+      console.log('runin');
+      console.log(lightup);
+      setTimeout(() => {
+        document.getElementById(`sponsorImg-${lightup}`).style.filter = 'grayscale(100%)';
+      }, 600);
+    }, 700);
+  }, [])
+
+  
   return (
     <>
       {/* <h1 className='snlegacy' >Legacy</h1> */}
@@ -74,24 +88,24 @@ const Legacy = () => {
         </div>
       </div>
       <div className="snboxes">
-      <div className="neon-card-container">
-      <div className="box">
-          <h1 className='sncardhead' >Card one</h1>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, eligendi. Ex minus necessitatibus veritatis quis?
+        <div className="neon-card-container">
+          <div className="box">
+            <h1 className='sncardhead' >Card one</h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, eligendi. Ex minus necessitatibus veritatis quis?
+          </div>
         </div>
-      </div>
-      <div className="neon-card-container">
-      <div className="box">
-          <h1 className='sncardhead' >Card one</h1>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, eligendi. Ex minus necessitatibus veritatis quis?
+        <div className="neon-card-container">
+          <div className="box">
+            <h1 className='sncardhead' >Card one</h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, eligendi. Ex minus necessitatibus veritatis quis?
+          </div>
         </div>
-      </div>
-      <div className="neon-card-container">
-      <div className="box">
-          <h1 className='sncardhead' >Card one</h1>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, eligendi. Ex minus necessitatibus veritatis quis?
+        <div className="neon-card-container">
+          <div className="box">
+            <h1 className='sncardhead' >Card one</h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, eligendi. Ex minus necessitatibus veritatis quis?
+          </div>
         </div>
-      </div>
       </div>
 
       <div className="pysponsors">
