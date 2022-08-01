@@ -228,3 +228,11 @@ input[type=radio] {
     height: 50vw;
    }
 }
+
+.matrixOpacity{
+  opacity: 0.6 !important;
+}
+
+.legacycards{
+  margin-top: 44vh;
+}
