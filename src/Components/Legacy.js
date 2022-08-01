@@ -16,7 +16,7 @@ const Legacy = () => {
     }, 700);
   }, [])
 
-  
+
   return (
     <>
       {/* <h1 className='snlegacy' >Legacy</h1> */}
@@ -37,7 +37,45 @@ const Legacy = () => {
         </div>
       </div>
 
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div id="sn_body" class="pinky">
+        <div class="sn_container">
+          <input type="radio" name="slider" id="item-1" checked />
+          <input type="radio" name="slider" id="item-2" />
+          <input type="radio" name="slider" id="item-3" />
+          <input type="radio" name="slider" id="item-4" />
+          <input type="radio" name="slider" id="item-5" />
+          <div class="cards">
+            <label class="sn_card" for="item-1" id="song-1">
+              <img className="sn_img"
+                src={require("./Assets/img/about/Infox-01.jpg")}
+                alt="song" />
+            </label>
+            <label class="sn_card" for="item-2" id="song-2">
+              <img className="sn_img"
+                 src={require("./Assets/img/about/infox-09.jpg")} 
+                alt="song" />
+            </label>
+            <label class="sn_card" for="item-3" id="song-3">
+              <img className="sn_img"
+                src={require("./Assets/img/about/electrotech-03.jpg")}
+                alt="song" />
+            </label>
+            <label class="sn_card" for="item-4" id="song-4">
+              <img className="sn_img"
+                src={require("./Assets/img/about/electrotech-01.jpg")}
+                alt="song" />
+            </label>
+            <label class="sn_card" for="item-5" id="song-5">
+              <img className="sn_img"
+                src={require("./Assets/img/about/Infox-07.jpg")}
+                alt="song" />
+            </label>
+          </div>
+        </div>
+      </div>
+
+
+      {/* <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -61,8 +99,8 @@ const Legacy = () => {
           <div class="carousel-item">
             <img src={require("./Assets/img/about/Infox-07.jpg")} class="d-block w-100" alt="..." />
           </div>
-        </div>
-        {/* <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        </div> */}
+      {/* <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
@@ -70,7 +108,7 @@ const Legacy = () => {
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button> */}
-      </div>
+      {/* </div> */}
       <div className="pt_content">
         <div className="container">
           <h3
