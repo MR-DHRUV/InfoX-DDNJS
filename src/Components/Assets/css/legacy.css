@@ -1,0 +1,80 @@
+.carousel{
+    height: 27rem;
+    width: 45rem;
+    margin: auto;
+    /* margin-top: 5rem; */
+    margin-bottom: 30vh;
+}
+.carousel-indicators{
+    margin-bottom: 0rem !important;
+}
+.d-block{
+    height: 27rem;
+    width: 45rem !important;
+    margin: auto;
+    margin-top: 1rem;
+    border: 8px solid #ffff;
+}
+.snline{
+    margin-top: -1.5rem;
+}
+
+.snlegacy{
+    font-family: atmospheric;
+    text-align: center;
+    margin-top: 7rem;
+    font-size: 4rem;
+}
+
+.neon-card-container {
+    /* display: flex !important; */
+    /* flex-direction: column !important; */
+    /* margin: 2.5rem auto; */
+    position: relative;
+    min-width: 300px;
+    width: 300px;
+    border: 5px solid #78f701;
+    padding: 40px 25px;
+    color: #000;
+}
+
+.neon-card-container::before,
+.neon-card-container::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(45deg, #d2ffc8,#ffff);
+    filter: blur(30px);
+}
+
+.neon-card-container::after {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+
+.box {
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    position: relative;
+    color: #78f701;
+    font-size: 24px;
+    z-index: 15;
+    margin-bottom: 15px;
+}
+.snboxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80vw;
+    margin: 2rem auto;
+}
+
+.sncardhead{
+    color: #78f701;
+    font-weight: bold;
+}
+
