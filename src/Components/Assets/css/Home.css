@@ -137,7 +137,9 @@
   justify-content: center;
 }
 
-
+.bgColorTeam{
+  background-color: #9184841a !important;
+}
 
 
 .schedule_fn_gallery_1_2 img {
@@ -490,6 +492,12 @@ body {
 
 .bgColorTimelineSec{
   background-color: #1111114f !important;
+}
+
+.scheduleHead{
+  max-width: none !important;
+  letter-spacing: 1rem !important;
+  font-size: 4.5rem !important;
 }
 
 @media (min-width : 1800px) {

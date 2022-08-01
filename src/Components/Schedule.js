@@ -48,8 +48,8 @@ const Schedule = () => {
                         <div className="hero_content">
                             <div className="container">
                                 <div className="content">
-                                    <h2 className="fn_title" title="Neoh">
-                                        Neoh
+                                    <h2 className="fn_title atmosphere theme scheduleHead" title="Neoh">
+                                        Events ->
                                     </h2>
                                     <p className="fn_desc fn_animated_text">
                                         The collection built by and runby ‘frenify’. Together we are
