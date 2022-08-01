@@ -10,6 +10,7 @@
     justify-content: center;
     display: flex;
     align-items: center;
+    padding-bottom: 3rem !important;
 }
 
 .footer-20192 .container {

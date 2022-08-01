@@ -1,12 +1,3 @@
-/*
- * Copyright (c) 2022 Frenify
- * Author: Frenify
- * This file is made for CURRENT TEMPLATE
- */
-
-
-
-// filter array
 var NeohFilterArray = [];
 
 (function($) {

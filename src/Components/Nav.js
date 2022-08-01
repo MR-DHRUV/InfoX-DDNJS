@@ -165,12 +165,13 @@ const Nav = () => {
             </div>
             {/* !Right Navigation */}
             {/* Header */}
-            <header className="neoh_fn_header">
+            <header className="neoh_fn_header py-2">
                 <div className="container">
                     <div className="header_in">
                         <div className="logo">
                             <a href="index.html">
                                 {/* <img src="./Assets//logo.png" alt="" /> */}
+                                <img src={require('./Assets/img/384.png')} width='64px' alt="" srcset="" />
                             </a>
                         </div>
                         <div className="trigger">
