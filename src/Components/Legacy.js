@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import "./Assets/css/legacy.css"
 import "./Assets/css/contact.css"
 import "./Assets/css/Home.css"
+import MatrixRain from './MatrixRain'
 const Legacy = () => {
 
   useEffect(() => {
@@ -21,6 +22,8 @@ const Legacy = () => {
     <>
       {/* <h1 className='snlegacy' >Legacy</h1> */}
       <div className="pt_content">
+        <div className="w-100 matrixOpacity"><MatrixRain /></div>
+
         <div className="container">
           <h3
             className="fn_title fn_animated_text theme atmosphere snlegacy"
@@ -52,7 +55,7 @@ const Legacy = () => {
             </label>
             <label class="sn_card" for="item-2" id="song-2">
               <img className="sn_img"
-                 src={require("./Assets/img/about/infox-09.jpg")} 
+                src={require("./Assets/img/about/infox-09.jpg")}
                 alt="song" />
             </label>
             <label class="sn_card" for="item-3" id="song-3">
@@ -109,43 +112,62 @@ const Legacy = () => {
           <span class="visually-hidden">Next</span>
         </button> */}
       {/* </div> */}
-      <div className="pt_content">
-        <div className="container">
-          <h3
-            className="fn_title fn_animated_text theme atmosphere snlegacy"
-            data-wait={100}
-            data-speed={8}
-          >
-            past Statistics
-          </h3>
-        </div>
-      </div>
-      <div className="neoh_fn_title">
-        <div className="line">
-          <span />
-        </div>
-      </div>
-      <div className="snboxes">
-        <div className="neon-card-container">
-          <div className="box">
-            <h1 className='sncardhead' >Card one</h1>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, eligendi. Ex minus necessitatibus veritatis quis?
+      <section className="legacycards">
+        <div className="pt_content">
+          <div className="container">
+            <h3
+              className="fn_title fn_animated_text theme atmosphere snlegacy"
+              data-wait={100}
+              data-speed={8}
+            >
+              past Statistics
+            </h3>
           </div>
         </div>
-        <div className="neon-card-container">
-          <div className="box">
-            <h1 className='sncardhead' >Card one</h1>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, eligendi. Ex minus necessitatibus veritatis quis?
+        <div className="neoh_fn_title">
+          <div className="line">
+            <span />
           </div>
         </div>
-        <div className="neon-card-container">
-          <div className="box">
-            <h1 className='sncardhead' >Card one</h1>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, eligendi. Ex minus necessitatibus veritatis quis?
-          </div>
-        </div>
-      </div>
 
+        <div className="neoh_fn_gualist mx-5 px-5 mt-5 pt-5">
+          <ul className='mx-5 px-5'>
+            <li>
+              <div className="item">
+                <span className="line" />
+                <img src="svg/search-engine.svg" alt="" className="fn__svg" />
+                <h3 className="fn_title">Transparency</h3>
+                <p className="fn_desc fn_animated_text">
+                  Morbi non dignissim erat, a blandit felis. Suspendisse nec
+                  lorem vel orci varius congue ut vitae est.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div className="item">
+                <span className="line" />
+                <img src="svg/management.svg" alt="" className="fn__svg" />
+                <h3 className="fn_title">Experienced Team</h3>
+                <p className="fn_desc fn_animated_text">
+                  Morbi non dignissim erat, a blandit felis. Suspendisse nec
+                  lorem vel orci varius congue ut vitae est.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div className="item">
+                <span className="line" />
+                <img src="svg/padlock.svg" alt="" className="fn__svg" />
+                <h3 className="fn_title">Security Guarantee</h3>
+                <p className="fn_desc fn_animated_text">
+                  Morbi non dignissim erat, a blandit felis. Suspendisse nec
+                  lorem vel orci varius congue ut vitae est.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
       <div className="pysponsors">
         <div className="pt_content">
           <div className="container">

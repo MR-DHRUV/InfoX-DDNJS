@@ -62,7 +62,7 @@ const Home = () => {
 
                                         }
                                         <p className="fn_desc fn_animated_text heroSubHead">
-                                            SEPTEMBER X - Y 2022
+                                            SEPTEMBER X - Y 2022 |
                                             TECHFEST USICT | GGSIPU
                                             CELEBRATING THE SENSE OF BELONGING
                                         </p>
