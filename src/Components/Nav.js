@@ -169,10 +169,10 @@ const Nav = () => {
                 <div className="container">
                     <div className="header_in">
                         <div className="logo">
-                            <a href="index.html">
+                            <Link to="/">
                                 {/* <img src="./Assets//logo.png" alt="" /> */}
                                 <img src={require('./Assets/img/384.png')} width='64px' alt="" srcset="" />
-                            </a>
+                            </Link>
                         </div>
                         <div className="trigger">
                             <div className="trigger_in">

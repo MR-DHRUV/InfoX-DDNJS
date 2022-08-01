@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const TimeLineCard = (props) => {
     return (
@@ -30,12 +31,12 @@ const TimeLineCard = (props) => {
                         ornare lectus interdum.
                     </p>
                     <p className="fn_read">
-                        <a
-                            href="#"
+                        <Link
+                            to='/schedule/event/name'
                             className="neoh_fn_button only_text"
                         >
                             <span className="text ">Know More</span>
-                        </a>
+                        </Link>
                     </p>
                 </div>
             </div>

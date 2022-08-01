@@ -137,7 +137,7 @@
   justify-content: center;
 }
 
-.bgColorTeam{
+.bgColorTeam {
   background-color: #9184841a !important;
 }
 
@@ -484,20 +484,25 @@ body {
   margin-right: 1.5rem;
   margin-bottom: 1rem;
 }
+
 .timeLineSvgNext {
   fill: #78f701;
   margin-left: 0.5rem;
   margin-bottom: 1rem;
 }
 
-.bgColorTimelineSec{
+.bgColorTimelineSec {
   background-color: #1111114f !important;
 }
 
-.scheduleHead{
+.scheduleHead {
   max-width: none !important;
   letter-spacing: 1rem !important;
   font-size: 4.5rem !important;
+}
+
+.mybgcolorEventTemp {
+  background-color: black !important;
 }
 
 @media (min-width : 1800px) {
@@ -573,4 +578,35 @@ body {
     font-size: 1rem !important;
     color: white !important;
   }
+}
+
+/* *{
+  scrollbar-color: #78f701 !;
+}
+
+::-webkit-scrollbar{
+  color: #78f701 !important;
+}
+::-webkit-scrollbar-track-piece{
+  color: #78f701 !important;
+  background-color: #78f701 !important;
+}
+
+::-webkit-scrollbar-thumb{
+  color: #78f701 !important;
+  background-color: #78f701 !important;
+} */
+
+::-webkit-scrollbar-thumb {
+  color: #78f701 !important;
+  background-color: #78f701 !important;
+  border-radius: 10px;
+}
+
+body {
+  scrollbar-color: #78f701 !important;
+  scrollbar-base-color: #78f701 !important;
+  scrollbar-arrow-color: #78f701 !important;
+  scrollbar-face-color: #78f701 !important;
+  scrollbar-highlight-color: #78f701 !important;
 }

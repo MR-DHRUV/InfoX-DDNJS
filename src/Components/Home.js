@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import { Link } from 'react-router-dom';
 import "./Assets/css/Home.css"
 import MatrixRain from './MatrixRain';
 import TimeLineCard from './TimeLineCard';
@@ -17,6 +18,9 @@ const Home = () => {
         }, 700);
     }, [])
 
+    const homeScroll = ()=>{
+        window.scrollTo(0,1100)
+    }
 
 
     return (
@@ -65,10 +69,9 @@ const Home = () => {
 
                                     </div>
                                 </div>
-                                <a
-                                    href="/about"
+                                <Link 
                                     className="neoh_fn_down magic-hover magic-hover__square"
-                                >
+                                onClick={homeScroll}>
                                     <span className="text">Scroll Down</span>
                                     <span className="icon">
                                         {/* <img src="svg/right-arr.svg" alt="" className="fn__svg" /> */}
@@ -78,7 +81,7 @@ const Home = () => {
                                             <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
                                         </svg>
                                     </span>
-                                </a>
+                                </Link>
                             </div>
                         </div>
 
@@ -703,7 +706,7 @@ const Home = () => {
 
                         {/* !Drops Section */}
                         {/* Investor Section */}
-                        <h3 className="fn_title theme Heading InvesterHeading">Our Sponsers</h3>
+                        <h3 className="fn_title theme Heading InvesterHeading mt-5 pt-4">Our Sponsers</h3>
                         <section id="investor">
                             {/* Dividers */}
                             <img
