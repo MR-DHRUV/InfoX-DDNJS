@@ -500,6 +500,10 @@ body {
   font-size: 4.5rem !important;
 }
 
+.mybgcolorEventTemp{
+  background-color: black !important;
+}
+
 @media (min-width : 1800px) {
 
   .landingHead {

@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Assets/css/eventTemp.css";
 
 export default function EventTemplate() {
+
+  useEffect(() => {
+    window.scrollTo(0,0);
+  }, [])
+
   return (
-    <>
+    <div className="neoh_fn_main">
+    <div className="neoh_fn_content mybgcolorEventTemp" >       
       <div className="et-background">
         <section className="fluid-container da-margin-top-10  d-flex justify-content-around flex-column-reverse flex-md-row px-5">
           <div className="">
@@ -38,7 +44,7 @@ export default function EventTemplate() {
 	</div>
 </div>
       </section> */}
-        <section className=" about-section da-margin-top-8">
+        <section className=" about-section da-margin-top-8 mx-5 px-5">
           <div className="fluid-container d-flex flex-column flex-md-row ">
             <div className="p-2  flex-fill  w-100">
               <h4 className="subheading">About</h4>
@@ -96,6 +102,7 @@ export default function EventTemplate() {
           </div>
         </section>
       </div>
-    </>
+    </div>
+    </div>
   );
 }

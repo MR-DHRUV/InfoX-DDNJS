@@ -27,16 +27,15 @@ const Nav = () => {
                                     <p>{/* here comes product's description */}</p>
                                 </div>
                                 <div className="buttons">
-                                    <a
-                                        href="https://opensea.io/"
-                                        target="_blank"
+                                    <Link
+                                        to='/'
                                         className="neoh_fn_button opensea"
                                     >
                                         <span className="icon">
                                             <img src="svg/opensea.svg" alt="" className="fn__svg" />
                                         </span>
                                         <span className="text">View on OpenSea</span>
-                                    </a>
+                                    </Link>
                                     <a
                                         href="https://discord.com/"
                                         target="_blank"
