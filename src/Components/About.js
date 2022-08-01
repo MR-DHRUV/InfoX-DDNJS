@@ -36,7 +36,7 @@ const About = () => {
                     {/* About Page */}
                     <div className="neoh_fn_aboutpage">
                         {/* Information Section */}
-                        <section id="information" class="nobackground">
+                        <section id="information" class="nobackground pt-5">
                             <div className="container">
                                 {/* About Item /1 */}
                                 <div className="neoh_fn_about_item">
@@ -46,7 +46,7 @@ const About = () => {
                                     <div className="content_item">
                                         <MatrixRain />
                                         <div className="neoh_fn_title" data-align="left">
-                                            <h3 className="fn_title  atmosphere">USICT</h3>
+                                            <h3 className="fn_title  atmosphere">InfoXpression</h3>
                                             <div className="line">
                                                 <span />
                                             </div>
@@ -127,13 +127,13 @@ const About = () => {
                                 </div> */}
                                 {/* !Guarantee List */}
                                 {/* About Item /2 */}
-                                {/* <div className="neoh_fn_about_item reverse">
+                                <div className="neoh_fn_about_item reverse">
                                     <div className="img_item">
-                                        <img src="img/about/2.jpg" alt="" />
+                                    <img src={require('./Assets/img/about/USICT.jpeg')} alt="" />
                                     </div>
                                     <div className="content_item">
                                         <div className="neoh_fn_title" data-align="left">
-                                            <h3 className="fn_title">Thousands of Users</h3>
+                                        <h3 className="fn_title  atmosphere">USICT</h3>
                                             <div className="line">
                                                 <span />
                                             </div>
@@ -157,7 +157,7 @@ const About = () => {
                                             </a>
                                         </div>
                                     </div>
-                                </div> */}
+                                </div>
                                 {/* !About Item /2 */}
                             </div>
                         </section>
@@ -195,7 +195,7 @@ const About = () => {
                         {/* </section> */}
                         {/* !Video Section */}
                         {/* Team Section */}
-                        <section id="team">
+                        <section id="team" className='bgColorTeam pt-5'>
                             <div className="container">
                                 {/* Main Title */}
                                 <div className="neoh_fn_title">

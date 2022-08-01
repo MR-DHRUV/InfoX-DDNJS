@@ -137,7 +137,9 @@
   justify-content: center;
 }
 
-
+.bgColorTeam{
+  background-color: #9184841a !important;
+}
 
 
 .schedule_fn_gallery_1_2 img {
