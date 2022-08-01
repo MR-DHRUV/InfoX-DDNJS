@@ -7,6 +7,7 @@ import About from './Components/About';
 import Contact from './Components/Contact';
 import Nav from './Components/Nav';
 import Footer from './Components/Footer';
+import EventTemplate from './Components/EventTemplate';
 import {
   BrowserRouter as Router,
   Switch,
@@ -22,17 +23,30 @@ function App() {
       <Router>
         <Nav />
         <Switch>
-          <Route exact path='/' ><Home /></Route>
-          <Route exact path='/about' ><About/></Route>
-          <Route exact path='/contact' ><Contact /></Route>
-          <Route exact path='/schedule' ><Schedule /></Route>
-          <Route exact path='/legacy' ><Legacy /></Route>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route exact path="/about">
+            <About />
+          </Route>
+          <Route exact path="/contact">
+            <Contact />
+          </Route>
+          <Route exact path="/schedule">
+            <Schedule />
+          </Route>
+          <Route exact path="/schedule/event/name">
+            <EventTemplate />
+          </Route>
+          <Route exact path="/legacy">
+            <Legacy />
+          </Route>
           {/*  */}
           {/*  */}
-
         </Switch>
         <Footer />
       </Router>
+      {/* <EventTemplate/> */}
     </div>
   );
 }
