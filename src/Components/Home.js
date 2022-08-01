@@ -706,7 +706,7 @@ const Home = () => {
 
                         {/* !Drops Section */}
                         {/* Investor Section */}
-                        <h3 className="fn_title theme Heading InvesterHeading">Our Sponsers</h3>
+                        <h3 className="fn_title theme Heading InvesterHeading mt-5 pt-4">Our Sponsers</h3>
                         <section id="investor">
                             {/* Dividers */}
                             <img

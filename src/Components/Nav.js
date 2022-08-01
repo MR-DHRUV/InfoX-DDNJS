@@ -27,15 +27,16 @@ const Nav = () => {
                                     <p>{/* here comes product's description */}</p>
                                 </div>
                                 <div className="buttons">
-                                    <Link
-                                        to='/'
+                                    <a
+                                        href="https://opensea.io/"
+                                        target="_blank"
                                         className="neoh_fn_button opensea"
                                     >
                                         <span className="icon">
                                             <img src="svg/opensea.svg" alt="" className="fn__svg" />
                                         </span>
                                         <span className="text">View on OpenSea</span>
-                                    </Link>
+                                    </a>
                                     <a
                                         href="https://discord.com/"
                                         target="_blank"
@@ -168,10 +169,10 @@ const Nav = () => {
                 <div className="container">
                     <div className="header_in">
                         <div className="logo">
-                            <a href="index.html">
+                            <Link to="/">
                                 {/* <img src="./Assets//logo.png" alt="" /> */}
                                 <img src={require('./Assets/img/384.png')} width='64px' alt="" srcset="" />
-                            </a>
+                            </Link>
                         </div>
                         <div className="trigger">
                             <div className="trigger_in">
