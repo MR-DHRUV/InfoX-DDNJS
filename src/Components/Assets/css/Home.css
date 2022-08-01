@@ -494,6 +494,12 @@ body {
   background-color: #1111114f !important;
 }
 
+.scheduleHead{
+  max-width: none !important;
+  letter-spacing: 1rem !important;
+  font-size: 4.5rem !important;
+}
+
 @media (min-width : 1800px) {
 
   .landingHead {
